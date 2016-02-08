@@ -1,0 +1,166 @@
+Package: bash
+Version: 4.3.39-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 315643
+Filename: bash_4.3.39-1_ar71xx.ipk
+Size: 316346
+MD5Sum: fa166c00b189ceafb8def81decf7700b
+SHA256sum: ae2b383edc7066ed06fa98532a09a6657d015175c6a63219ad917fa71e024c81
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: glib2
+Version: 2.43.4-1
+Depends: libc, libiconv-full, libintl-full, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 882875
+Filename: glib2_2.43.4-1_ar71xx.ipk
+Size: 875297
+MD5Sum: d1655b91431c040a8bceecd891f2a826
+SHA256sum: 9aae33cc4f8a9fb53744b098e0c324e90689cae4d315757c170482bb44a0ae1a
+Description:  The GLib library of C routines
+
+Package: htop
+Version: 1.0.3-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 44166
+Filename: htop_1.0.3-1_ar71xx.ipk
+Size: 44818
+MD5Sum: 591b61e6de94f4f08d4aecb68993527a
+SHA256sum: ffc6cb2ef74f2db62820b59f2fcd16a66054c2149facdd1a0b2f27f66de5c062
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libattr
+Version: 20150220-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 5937
+Filename: libattr_20150220-1_ar71xx.ipk
+Size: 6709
+MD5Sum: 77b9b73d3834da7eb5dab7601bf7ef14
+SHA256sum: fdc38fd9ef7ae6a8c93278ff289a0a012819ef85adf97b8bd529b8922cf40762
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 5432
+Filename: libffi_3.0.13-1_ar71xx.ipk
+Size: 6464
+MD5Sum: 1d1771d75b350b2aa5f0c61763c36ae3
+SHA256sum: 4863c2dc7a54ffe8a26392507e2260c393a94db8823fd7d3537d86d6aff1b71c
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libpcre
+Version: 8.38-1
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ar71xx
+Installed-Size: 80312
+Filename: libpcre_8.38-1_ar71xx.ipk
+Size: 81156
+MD5Sum: 88d69a109c883072920bd7bcfe3c2bae
+SHA256sum: c578a1d0d3ed92709b8b407251783fad0f645bd1d9f03df0e346c0094b4d03d9
+Description:  A Perl Compatible Regular Expression library
+
+Package: mc
+Version: 4.8.14-1.3
+Depends: libc, glib2, libncurses, libmount, librpc, libiconv-full
+Source: feeds/packages/utils/mc
+License: GPL-3.0+
+Section: utils
+Maintainer: Dirk Brenken <dibdot@gmail.com>
+Architecture: ar71xx
+Installed-Size: 337047
+Filename: mc_4.8.14-1.3_ar71xx.ipk
+Size: 337481
+MD5Sum: f9615652e1039d00ad081297fdf03d5f
+SHA256sum: d8775a29fbe5e72bbc33dcfc99f9440e3c3d098516d22aad1c8508f3070d9c83
+Description:  GNU Midnight Commander is a visual file manager,
+ licensed under GNU General Public License and therefore qualifies as Free Software.
+ It's a feature rich full-screen text mode application that allows you to copy,
+ move and delete files and whole directory trees, search for files
+ and run commands in the subshell. Internal viewer and editor are included.
+
+Package: nano
+Version: 2.4.1-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: ar71xx
+Installed-Size: 24895
+Filename: nano_2.4.1-1_ar71xx.ipk
+Size: 25587
+MD5Sum: da161d9511f0791467753331fabff3fa
+SHA256sum: 2fcba73eacedddbcd1d8fc9d1be93f04b93d559e4f7734ccefc18ce79b92201c
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: wget
+Version: 1.17.1-1
+Depends: libc, libpcre, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 174659
+Filename: wget_1.17.1-1_ar71xx.ipk
+Size: 175096
+MD5Sum: e7611aa0d7f259a10ea51b9bc47f8aa8
+SHA256sum: 25162958a930ff74592946e2b9a72585e322af056179b5c1e803751d77bee26e
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
