@@ -15,13 +15,8 @@ out the box. Package repository is small too and includes monit, python, `my own
 
 This is very basic feautre overview, so some interesting stuff is not described. You can check build config for more information.
 
-Versions
+Download
 ========
-
-* 15.05
-
-How to use
-==========
 
 `http://fillo.me/openwrt-wr842nd/ <http://fillo.me/openwrt-wr842nd/>`_.
 
