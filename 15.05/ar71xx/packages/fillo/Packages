@@ -1,0 +1,16 @@
+Package: nginx-sub
+Version: 1.9.6-1
+Depends: libc, libpcre, libopenssl, zlib, libpthread
+Source: feeds/fillo/net/nginx-sub
+License: 2-clause BSD-like license
+Section: net
+Maintainer: Dmitry Fillo <fillo@fillo.me>
+Architecture: ar71xx
+Installed-Size: 239555
+Filename: nginx-sub_1.9.6-1_ar71xx.ipk
+Size: 239941
+MD5Sum: d632184f631a415c14dc44de70b8f02d
+SHA256sum: 18e3887b450cde61c628badd0c129a5b8f4fb58afaa09c320d17e130140ef9bf
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
+ With ngx_http_sub_module and nginx_substitutions_filter support.
+

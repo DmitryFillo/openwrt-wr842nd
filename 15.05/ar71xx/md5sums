@@ -1,0 +1,14 @@
+f46e854a93b86472566510339c999740 *openwrt-15.05-ar71xx-generic-root.squashfs
+edd1ecd0296ec40801d69f8f320e3bb2 *openwrt-15.05-ar71xx-generic-root.squashfs-64k
+69bf4a00de97dc08f4e6ba57f8363d9d *openwrt-15.05-ar71xx-generic-tl-wr842n-v1-squashfs-factory.bin
+a9dbce328454ebfa109f422f34585422 *openwrt-15.05-ar71xx-generic-tl-wr842n-v1-squashfs-sysupgrade.bin
+6dd84e218449902e8a6e7aca02cbfec0 *openwrt-15.05-ar71xx-generic-tl-wr842n-v2-squashfs-factory.bin
+28ecc51f8d6803a3dd128ef96e6c846d *openwrt-15.05-ar71xx-generic-tl-wr842n-v2-squashfs-sysupgrade.bin
+8060c98051e78524f1b08d3cbb307191 *openwrt-15.05-ar71xx-generic-uImage-gzip.bin
+0a05c91368370268b0fc97161b1885fc *openwrt-15.05-ar71xx-generic-uImage-lzma.bin
+c3bf6504c99237ac27c86b106c212028 *openwrt-15.05-ar71xx-generic-vmlinux-lzma.elf
+3e9d04557b1618fa46dd382026309b7e *openwrt-15.05-ar71xx-generic-vmlinux.bin
+c937b44e9a27fdb4765215d200c288b2 *openwrt-15.05-ar71xx-generic-vmlinux.elf
+b52f2b0980ecf78f604dfa504e4e2a51 *openwrt-15.05-ar71xx-generic-vmlinux.gz
+9df9181085ff8b732ff666f58da81ccf *openwrt-15.05-ar71xx-generic-vmlinux.lzma
+15bd5d1938df4d677137c1e53fd7e62d *sha256sums

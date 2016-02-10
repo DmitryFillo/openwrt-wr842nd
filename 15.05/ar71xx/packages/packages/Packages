@@ -1,0 +1,798 @@
+Package: bash
+Version: 4.3.39-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 315643
+Filename: bash_4.3.39-1_ar71xx.ipk
+Size: 316346
+MD5Sum: fa166c00b189ceafb8def81decf7700b
+SHA256sum: ae2b383edc7066ed06fa98532a09a6657d015175c6a63219ad917fa71e024c81
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: glib2
+Version: 2.43.4-1
+Depends: libc, libiconv-full, libintl-full, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 882875
+Filename: glib2_2.43.4-1_ar71xx.ipk
+Size: 875297
+MD5Sum: d1655b91431c040a8bceecd891f2a826
+SHA256sum: 9aae33cc4f8a9fb53744b098e0c324e90689cae4d315757c170482bb44a0ae1a
+Description:  The GLib library of C routines
+
+Package: htop
+Version: 1.0.3-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 44166
+Filename: htop_1.0.3-1_ar71xx.ipk
+Size: 44818
+MD5Sum: 591b61e6de94f4f08d4aecb68993527a
+SHA256sum: ffc6cb2ef74f2db62820b59f2fcd16a66054c2149facdd1a0b2f27f66de5c062
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libattr
+Version: 20150220-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 5937
+Filename: libattr_20150220-1_ar71xx.ipk
+Size: 6709
+MD5Sum: 77b9b73d3834da7eb5dab7601bf7ef14
+SHA256sum: fdc38fd9ef7ae6a8c93278ff289a0a012819ef85adf97b8bd529b8922cf40762
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libdb47
+Version: 4.7.25.4.NC-4.1
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 439743
+Filename: libdb47_4.7.25.4.NC-4.1_ar71xx.ipk
+Size: 440428
+MD5Sum: 514204f589266091df75979a36b6b74e
+SHA256sum: 5158f6b0e8c1897774cb1802228c0bcf8450d43503a5da4536ca7478e924c692
+Description:  Berkeley DB library (4.7).
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 5432
+Filename: libffi_3.0.13-1_ar71xx.ipk
+Size: 6464
+MD5Sum: 1d1771d75b350b2aa5f0c61763c36ae3
+SHA256sum: 4863c2dc7a54ffe8a26392507e2260c393a94db8823fd7d3537d86d6aff1b71c
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ar71xx
+Installed-Size: 15998
+Filename: libgdbm_1.11-1_ar71xx.ipk
+Size: 16760
+MD5Sum: eefb0c560f372b885d547a2ac49dea1f
+SHA256sum: c611750428ed5047d4643a242eb7b511e07281c1523fae8d9023d5bf01ac0dfc
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libmysqlclient
+Version: 5.1.73-1
+Depends: libc, uclibcxx, zlib
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 171414
+Filename: libmysqlclient_5.1.73-1_ar71xx.ipk
+Size: 164029
+MD5Sum: ec31b882f35dc0f7f8f9f42277f93eb9
+SHA256sum: c3efc0fcc8b3922b2a270f88a6882e0700ea68571dc677b87374c16b5192cf91
+Description:  MySQL client library
+
+Package: libpam
+Version: 1.1.8-4
+Depends: libc
+Source: feeds/packages/libs/libpam
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: ar71xx
+Installed-Size: 175777
+Filename: libpam_1.1.8-4_ar71xx.ipk
+Size: 176390
+MD5Sum: 562bd8d2c57dbd5b1a55e25beef5e621
+SHA256sum: 105dad4606934673659d954faa082c8ff49f539e1251c9f73acdf850a225cc0c
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpcre
+Version: 8.38-1
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ar71xx
+Installed-Size: 80312
+Filename: libpcre_8.38-1_ar71xx.ipk
+Size: 81156
+MD5Sum: 88d69a109c883072920bd7bcfe3c2bae
+SHA256sum: c578a1d0d3ed92709b8b407251783fad0f645bd1d9f03df0e346c0094b4d03d9
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 342671
+Filename: libsqlite3_3081101-1_ar71xx.ipk
+Size: 342919
+MD5Sum: 495a3707e989edad5af3121ef339cce8
+SHA256sum: c9b0a2a7dbab6bf20f743957866ee4fd759ca28d7f5b14c7be8b99e27b8a3419
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 444731
+Filename: libxml2_2.9.2-3_ar71xx.ipk
+Size: 442589
+MD5Sum: 211055c26a015250a7848466f94b97bb
+SHA256sum: 986c75dac4166c4fe22b2013a320c3f5a5d27c071342582f0dfa88c649769214
+Description:  A library for manipulating XML and HTML resources.
+
+Package: mc
+Version: 4.8.14-1.3
+Depends: libc, glib2, libncurses, libmount, librpc, libiconv-full
+Source: feeds/packages/utils/mc
+License: GPL-3.0+
+Section: utils
+Maintainer: Dirk Brenken <dibdot@gmail.com>
+Architecture: ar71xx
+Installed-Size: 337047
+Filename: mc_4.8.14-1.3_ar71xx.ipk
+Size: 337481
+MD5Sum: f9615652e1039d00ad081297fdf03d5f
+SHA256sum: d8775a29fbe5e72bbc33dcfc99f9440e3c3d098516d22aad1c8508f3070d9c83
+Description:  GNU Midnight Commander is a visual file manager,
+ licensed under GNU General Public License and therefore qualifies as Free Software.
+ It's a feature rich full-screen text mode application that allows you to copy,
+ move and delete files and whole directory trees, search for files
+ and run commands in the subshell. Internal viewer and editor are included.
+
+Package: monit
+Version: 5.14-1
+Depends: libc, libpthread, libopenssl
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 194158
+Filename: monit_5.14-1_ar71xx.ipk
+Size: 193937
+MD5Sum: 466d095b26986b7c869798c21806a225
+SHA256sum: 9777d53bb17092278c882679581bf8e63e473dc8595a7e0df462bf19081014f2
+Description:  An utility for monitoring services on a Unix system
+ This package is built with SSL support.
+
+Package: mysql-server
+Version: 5.1.73-1
+Depends: libc, libmysqlclient, libpthread, libncursesw, libreadline
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2280851
+Filename: mysql-server_5.1.73-1_ar71xx.ipk
+Size: 2248364
+MD5Sum: 26f8993036fbe88223c3feea8f1678e7
+SHA256sum: a13e71b813a3ddf324d21818ee5fa963bef2e9264c344287d6d5cf5c4c8510b7
+Description:  MySQL Server
+
+Package: nano
+Version: 2.4.1-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/nano
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: ar71xx
+Installed-Size: 24895
+Filename: nano_2.4.1-1_ar71xx.ipk
+Size: 25587
+MD5Sum: da161d9511f0791467753331fabff3fa
+SHA256sum: 2fcba73eacedddbcd1d8fc9d1be93f04b93d559e4f7734ccefc18ce79b92201c
+Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: openssh-client-utils
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-client, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 668027
+Filename: openssh-client-utils_7.1p2-1_ar71xx.ipk
+Size: 666198
+MD5Sum: 79e4f12742d28d3645a94b40716a5536
+SHA256sum: 66e394f483725cd3096faffb7297ece94c6d5a952ef6c6875d3e1bad30164c70
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 319871
+Filename: openssh-client_7.1p2-1_ar71xx.ipk
+Size: 319703
+MD5Sum: 128821878121c23a42748636094f81c7
+SHA256sum: ffa933fccc355da6758300994b746cd71888643d908f337fc2e8a213aae5fd1d
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 176451
+Filename: openssh-keygen_7.1p2-1_ar71xx.ipk
+Size: 176583
+MD5Sum: a4cb0184afc49eaad2c8c5008705414f
+SHA256sum: ca6c254aac81e27dc7f1eeb79e85538a560612309031b1985f625bbc78c3a1f5
+Description:  OpenSSH keygen.
+
+Package: openssh-moduli
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 9904
+Filename: openssh-moduli_7.1p2-1_ar71xx.ipk
+Size: 9691
+MD5Sum: 4486912f19a35654fc329d69d6289fbd
+SHA256sum: da00a7d928750fdad81fa47855aa2e6d1bf68dedb8026a8ffeba8d3e86a97d05
+Description:  OpenSSH server moduli file.
+
+Package: openssh-server-pam
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, libpthread, openssh-keygen, libpam
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Require-User: sshd=22:sshd=22
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 316252
+Filename: openssh-server-pam_7.1p2-1_ar71xx.ipk
+Size: 316341
+MD5Sum: d823d0d44baab0a83ba295e4283b9a2e
+SHA256sum: 661003b0e384da22af1ee00946c3883bbadb2c53327cdf2824efb4cb600a7a15
+Description:  OpenSSH server (with PAM support).
+
+Package: openssh-server
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib, openssh-keygen
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Require-User: sshd=22:sshd=22
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 306829
+Filename: openssh-server_7.1p2-1_ar71xx.ipk
+Size: 306741
+MD5Sum: f63d80bcfa4d2fadb00530f3cb448c52
+SHA256sum: 55390e97762195502a8a95efea854cea96232927a7648fb87b96303202318090
+Description:  OpenSSH server.
+
+Package: openssh-sftp-client
+Version: 7.1p2-1
+Depends: libc, libopenssl, zlib
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 47478
+Filename: openssh-sftp-client_7.1p2-1_ar71xx.ipk
+Size: 48205
+MD5Sum: b99d6cc91cc76094d0bea9f205e390dc
+SHA256sum: 523c85f4367d847d2a91e54cd95db1da9894e7d8634722d64f71626256593e19
+Description:  OpenSSH SFTP client.
+
+Package: openssh-sftp-server
+Version: 7.1p2-1
+Depends: libc
+Source: feeds/packages/net/openssh
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 31723
+Filename: openssh-sftp-server_7.1p2-1_ar71xx.ipk
+Size: 32389
+MD5Sum: c5b817eccdf13e82c5a6404669ef55be
+SHA256sum: 89b3677cb1aee9bd09a9aa060f3c323527958ab96ad6cf800514e726a385c071
+Description:  OpenSSH SFTP server.
+
+Package: python-base
+Version: 2.7.9-6
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 711623
+Filename: python-base_2.7.9-6_ar71xx.ipk
+Size: 708977
+MD5Sum: a113df61b519ddc51352ffc67158aa64
+SHA256sum: 933ce33b6e0f6f6877b29390f6263dfc83c7e98900170a0b47778ce07536e209
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 882880
+Filename: python-codecs_2.7.9-6_ar71xx.ipk
+Size: 859209
+MD5Sum: 72499c95489673565b748833ec193b38
+SHA256sum: d8760e580a2ffb24e4ac3d6df90155f75d1b482943f5641f2fe1e89de6d9940a
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 37797
+Filename: python-compiler_2.7.9-6_ar71xx.ipk
+Size: 38719
+MD5Sum: 82c3eb62cab5c4f3b15cf2c706de389a
+SHA256sum: edb9b3b97efc4af6772f987577fd05a4fb12d377a1dc3398c09d58ea90299116
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 98846
+Filename: python-ctypes_2.7.9-6_ar71xx.ipk
+Size: 99786
+MD5Sum: ce89d92ff5e0e61f5886bd69ae08e0d1
+SHA256sum: 4ff69bd7ac53c13863511c28d21df05829fcc6ecaa9306401056de0e6c10e88b
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.9-6
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 101857
+Filename: python-db_2.7.9-6_ar71xx.ipk
+Size: 101986
+MD5Sum: e4f7d34f1e5b74a25172cc71d88a6d56
+SHA256sum: 683ee4ab19adb09277d2f4aef1d857b311769c785ff9a98002de6d60fa2cecb7
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 47099
+Filename: python-decimal_2.7.9-6_ar71xx.ipk
+Size: 48014
+MD5Sum: 9380c0bb72a4ede59ef0e3154f1ea09c
+SHA256sum: 8eba1bd8dbd52d8627781b804c89fe9f84e509ff2029222c8016a9c7f1e28d26
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 542144
+Filename: python-distutils_2.7.9-6_ar71xx.ipk
+Size: 543105
+MD5Sum: 8ac9e9ddab878ae6013bc51ad780b9e9
+SHA256sum: 8467b593ae888c9cc48174b35448551ef0c28f60971f740ecfcde16c59ddcf9b
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 145006
+Filename: python-email_2.7.9-6_ar71xx.ipk
+Size: 145863
+MD5Sum: f3af86297817a1e33aa4553fed8785ab
+SHA256sum: 8b3154b59975501b96c618c2c3d1e7ce71f0504899bc189ffce3160ba2905d64
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.9-6
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 5603
+Filename: python-gdbm_2.7.9-6_ar71xx.ipk
+Size: 6402
+MD5Sum: 0fe461fb9cfc8e28bb9541be9d4221b3
+SHA256sum: f850ef7ee656e14122f190fd4e513c383911cdc566d61169cfa46d913ed28f65
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.9-6
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1239671
+Filename: python-light_2.7.9-6_ar71xx.ipk
+Size: 1238299
+MD5Sum: 50514fde52c4ea681f3eb07082c67e3d
+SHA256sum: 3580555c5bcc7689555fe49c3a6514953e241d90c42f7d037db33a42feea6140
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 37138
+Filename: python-logging_2.7.9-6_ar71xx.ipk
+Size: 38004
+MD5Sum: 157bd472a18c797b5d3d463e1f07bc2e
+SHA256sum: 33c98c37398e7a15afd6e0c39c24a0c9904f55f7612d399dbdd7bc00492a759e
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 46231
+Filename: python-multiprocessing_2.7.9-6_ar71xx.ipk
+Size: 47065
+MD5Sum: dd8eaf4bdc02bba4d5e351e08cb489a1
+SHA256sum: 85e41c6a40e39d942844fad71851ede74d4ef7f4d99b3b8e4335155309b7f36f
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.9-6
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 26386
+Filename: python-ncurses_2.7.9-6_ar71xx.ipk
+Size: 26696
+MD5Sum: a0e3c9f746a4edba83b95166c52e6b1d
+SHA256sum: 0f8550cf2720067e8bcdb9a15786c1857bdd64267da0d13236a535fa625433e4
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.9-6
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 33626
+Filename: python-openssl_2.7.9-6_ar71xx.ipk
+Size: 33898
+MD5Sum: a7d4a112944a1746366e70f3a57c44e3
+SHA256sum: 2af0bcba5609ddde1e3ac9f0e711fa2935e6cf78d072c03ea792912526850edc
+Description:  Python 2.7 SSL module
+
+Package: python-pip
+Version: 1.5.6-1
+Depends: libc, python, python-setuptools
+Source: feeds/packages/lang/python-pip
+Section: lang
+Architecture: ar71xx
+Installed-Size: 737416
+Filename: python-pip_1.5.6-1_ar71xx.ipk
+Size: 726152
+MD5Sum: 834cbccd04b5a5dadae796d5d79372eb
+SHA256sum: 4b8a62813bc0c60f1b2f83483279e2e3894459554bd767b91afaee618aeaef68
+Description:  A tool for installing and managing Python packages.
+
+Package: python-pydoc
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 164542
+Filename: python-pydoc_2.7.9-6_ar71xx.ipk
+Size: 165392
+MD5Sum: 90545dcac5dab94727066e594b61b8b7
+SHA256sum: f468560b4d0aadbd95f96ff15da612a5cc0386957c2361589431afd1c444db48
+Description:  Python 2.7 pydoc module
+
+Package: python-setuptools
+Version: 7.0-1
+Depends: libc, python
+Source: feeds/packages/lang/python-setuptools
+Section: lang
+Architecture: ar71xx
+Installed-Size: 203114
+Filename: python-setuptools_7.0-1_ar71xx.ipk
+Size: 203954
+MD5Sum: 6803a862c45aba7873df2c4a4ec18cf6
+SHA256sum: 2756046dcc607ea0474ee515cd990347e93920592989bec076a82fc1b6367f49
+Description:  Easily download, build, install, upgrade, and uninstall Python packages
+
+Package: python-sqlite3
+Version: 2.7.9-6
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 41752
+Filename: python-sqlite3_2.7.9-6_ar71xx.ipk
+Size: 42642
+MD5Sum: 1e36e4d55050ab493b871605b6dbbac4
+SHA256sum: ea399927489ed2f29691fe327252ef410c3c13c694fa59d24e6c810eb32eb3a2
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 54186
+Filename: python-unittest_2.7.9-6_ar71xx.ipk
+Size: 55061
+MD5Sum: 0268142bcbd028f7165612aef8dbaab6
+SHA256sum: c2a59d1798c8ce17ab4227534e3988e5ebf7a06f0d52ff30c6afc49840f7e819
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 156959
+Filename: python-xml_2.7.9-6_ar71xx.ipk
+Size: 157419
+MD5Sum: 240f89a872016c2e498b19a93eed04c3
+SHA256sum: 2907601cd0b9df885c46bf2a4276c753713b00d6a8341301532662273e752ff4
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.9-6
+Depends: libc, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-logging, python-codecs, python-sqlite3, python-xml, python-gdbm, python-email, python-distutils, python-openssl, python-compiler, python-db, python-decimal, python-unittest, python-ncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: python_2.7.9-6_ar71xx.ipk
+Size: 1022
+MD5Sum: 6066f9a6e21a1ee2d4037cd00eac2d4d
+SHA256sum: 8bb8a5d40d8e6d610275f4722a054641b11f9f5ab63d3c5d20391da8384fa46e
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: sqlite3-cli
+Version: 3081101-1
+Depends: libc, libsqlite3, libncurses, libreadline
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: utils
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 363347
+Filename: sqlite3-cli_3081101-1_ar71xx.ipk
+Size: 364358
+MD5Sum: 67e0a4e226170c2ee98699760f12f01d
+SHA256sum: e5810dac990d1d7bc2eafd30ecc71f1efe7ac45ae2eb3b8eaa10328290ba91b4
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: sudo
+Version: 1.8.14p3-1
+Depends: libc
+Source: feeds/packages/admin/sudo
+License: ISC
+LicenseFiles: doc/LICENSE
+Section: admin
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: ar71xx
+Installed-Size: 244333
+Filename: sudo_1.8.14p3-1_ar71xx.ipk
+Size: 244674
+MD5Sum: 0b708981538086f7fdcba7684ab8a219
+SHA256sum: be4f19ff952b4add2a4ea0c20e227704c33c91011ae918c8cd7aa4dd9a26f7a0
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: wget
+Version: 1.17.1-1
+Depends: libc, libpcre, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 174659
+Filename: wget_1.17.1-1_ar71xx.ipk
+Size: 175096
+MD5Sum: e7611aa0d7f259a10ea51b9bc47f8aa8
+SHA256sum: 25162958a930ff74592946e2b9a72585e322af056179b5c1e803751d77bee26e
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+

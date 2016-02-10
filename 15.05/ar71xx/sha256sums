@@ -1,0 +1,14 @@
+SHA256(openwrt-15.05-ar71xx-generic-root.squashfs)= f2401bc6d244ff40ade3cc4766de06741e2c086d3d786697a7c0694018c23cf5
+SHA256(openwrt-15.05-ar71xx-generic-root.squashfs-64k)= c3085f5f26cae841df4e6c3c8fd18353bc9de303c76861440702dcfab1744ecd
+SHA256(openwrt-15.05-ar71xx-generic-tl-wr842n-v1-squashfs-factory.bin)= 7c25a09d4410f771110f5ab6e6ae8adf404ec5525a52549d269476214b8a99d3
+SHA256(openwrt-15.05-ar71xx-generic-tl-wr842n-v1-squashfs-sysupgrade.bin)= 1ea653ebc4680f6d55ea7b1af2967c00d1aaae71c53d74df77226257e65ed528
+SHA256(openwrt-15.05-ar71xx-generic-tl-wr842n-v2-squashfs-factory.bin)= 14e885db5a82c884bff7c53fd5d3f5ec1b2a0edae1fffa4742db47dc7ad45ffd
+SHA256(openwrt-15.05-ar71xx-generic-tl-wr842n-v2-squashfs-sysupgrade.bin)= 7d439d40981daa7b77d94c1dc96fa1473c6f50c9cf0e06cae2a24cca3fa8488b
+SHA256(openwrt-15.05-ar71xx-generic-uImage-gzip.bin)= ca086c2442237f8cababb57d313316a61ceac10cafbe97221b1886cf8508ece1
+SHA256(openwrt-15.05-ar71xx-generic-uImage-lzma.bin)= 66938fea1805de2ed6bdf8dd0be8c4fb0dfdf5946d32bc5d1f89b4fceb9eaf74
+SHA256(openwrt-15.05-ar71xx-generic-vmlinux-lzma.elf)= 3632a7c1366f7425c5c36825ee7ffb02dda35c14cd5937c0cea948e7616a1e7d
+SHA256(openwrt-15.05-ar71xx-generic-vmlinux.bin)= 77bd68f90362b936b8356562dac934f336f36f3bacb1c5ec83dfb87120148e88
+SHA256(openwrt-15.05-ar71xx-generic-vmlinux.elf)= 37471f65dd70fae41a947f512f17527b7affe6331a5dc0ecf5b0834bd2cef2ed
+SHA256(openwrt-15.05-ar71xx-generic-vmlinux.gz)= 725dc07df8476df1be97a9ce625a4c183c5de8146b042e32afb7aa6fe1029c41
+SHA256(openwrt-15.05-ar71xx-generic-vmlinux.lzma)= 54566365811a69d5947f6255f3ab4e5adcb5a9fdbaac6c28eab5cf91c65b78bf
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
