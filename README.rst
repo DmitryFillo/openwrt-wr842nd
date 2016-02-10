@@ -23,9 +23,9 @@ Versions
 How to use
 ==========
 
-Check out `http://fillo.me/openwrt-wr842nd/ <http://fillo.me/openwrt-wr842nd/>`_.
+`http://fillo.me/openwrt-wr842nd/ <http://fillo.me/openwrt-wr842nd/>`_.
 
-Additional
-==========
+If something will go wrong
+==========================
 
-There is also `stripped firmware <https://github.com/DmitryFillo/openwrt-wr842nd/blob/master/TL-WR842ND-V2-stripped.zip>`_ for `TFTP recovering <https://wiki.openwrt.org/toh/tp-link/tl-wr842nd>`_.
+Router's bootloader has TFTP support, so use `stripped stock firmware <https://github.com/DmitryFillo/openwrt-wr842nd/blob/master/TL-WR842ND-V2-stripped.zip>`_ for `TFTP recovering <https://wiki.openwrt.org/toh/tp-link/tl-wr842nd>`_.
