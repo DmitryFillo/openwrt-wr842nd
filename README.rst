@@ -1,6 +1,6 @@
-===============
-openwrt-wr842nd
-===============
+======================
+OpenWrt for TL-WR842ND
+======================
 
 My custom OpenWrt build and packages repo for TP-Link TL-WR842ND. I created it for personal use and so documentation is quite weak, but
 I'll be happy if you'll use something from here.
