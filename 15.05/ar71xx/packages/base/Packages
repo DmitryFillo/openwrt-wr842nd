@@ -61,6 +61,23 @@ SHA256sum: 2da663e4b19d485acfb1449ac873c51ce00fa988dbf45c698ffb3793fb84355b
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
+Package: bzip2
+Version: 1.0.6-2
+Depends: libc, libbz2
+Source: package/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12124
+Filename: bzip2_1.0.6-2_ar71xx.ipk
+Size: 12868
+MD5Sum: db2d555907540c4b72575bc466c5c88a
+SHA256sum: aaca383c6eb30a34677a58b53122f3cbe294a7bb71c01aba7f179cad86bcacdf
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
+
 Package: cal
 Version: 2.25.2-4
 Depends: libc, libncurses

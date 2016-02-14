@@ -98,6 +98,23 @@ Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
+Package: libacl
+Version: 20140812-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 10866
+Filename: libacl_20140812-1_ar71xx.ipk
+Size: 11634
+MD5Sum: 0b159ffbc244af9c6eb964d950246df3
+SHA256sum: dd6de743997f1bbd197f9967a707fc8c865497b3692f7674bc16393e3cb3f0d4
+Description:  Access control list support
+ This package provides libacl
+
 Package: libattr
 Version: 20150220-1
 Depends: libc
@@ -1037,6 +1054,23 @@ Description:  Sudo (su "do") allows a system administrator to delegate authority
  give certain users (or groups of users) the ability to run some (or
  all) commands as root or another user while providing an audit trail of
  the commands and their arguments.
+
+Package: tar
+Version: 1.28-2
+Depends: libc, bzip2, libacl, libattr
+Source: feeds/packages/utils/tar
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: ar71xx
+Installed-Size: 153971
+Filename: tar_1.28-2_ar71xx.ipk
+Size: 154510
+MD5Sum: db51405b4fb278e9d00220a4ae54c8f4
+SHA256sum: cdeb1426871b22d0a34d75b00acb80b1e69609bde1265a055c089ddc137bf990
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
 
 Package: wget
 Version: 1.17.1-1
