@@ -2066,6 +2066,20 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  as a full-strength general purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: openvpn-easy-rsa
+Version: 2013-01-30-2
+Depends: libc, openssl-util
+Source: package/network/services/openvpn-easy-rsa
+License: GPL-2.0
+Section: net
+Architecture: ar71xx
+Installed-Size: 10046
+Filename: openvpn-easy-rsa_2013-01-30-2_ar71xx.ipk
+Size: 10853
+MD5Sum: 5b862b6225ba059c3d3e38d4a19ad416
+SHA256sum: b1a515fbca96defd2a48be8b2a92a1241c34266a344b57a0bec68a46b7b80ddc
+Description:  Simple shell scripts to manage a Certificate Authority
+
 Package: openvpn-openssl
 Version: 2.3.6-5
 Depends: libc, kmod-tun, liblzo, ip, libopenssl
