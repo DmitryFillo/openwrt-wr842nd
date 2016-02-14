@@ -110,11 +110,11 @@ License: GPL-2.0 LGPL-2.1
 Section: libs
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: ar71xx
-Installed-Size: 91456
+Installed-Size: 91454
 Filename: libdevmapper_2.02.119-2_ar71xx.ipk
-Size: 92381
-MD5Sum: 249ec2c6433b16635301a77b81549740
-SHA256sum: c30ee8c83a7c366deead7afa475f36ceeeef9c139c09d8751300dc8a9e667a3c
+Size: 92379
+MD5Sum: d021f617a585be6c573b0d5e840e8907
+SHA256sum: 81a70fea2d60c892ef1b6dba08f7bdd38470268048d0331c218d68b1ec911f23
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -250,9 +250,9 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: ar71xx
 Installed-Size: 473399
 Filename: lvm2_2.02.119-2_ar71xx.ipk
-Size: 472619
-MD5Sum: 4fe630310a5f25476ace9058fe93c18a
-SHA256sum: 53c424eb648abfd76e422d4e1ef69bb0ac28d656f2e75106970ca3934c83490d
+Size: 472621
+MD5Sum: 687d2cb847249b554d6b3101b43c5019
+SHA256sum: dd56340bc89395a788b8dbda91fa4110f19e34330e0d0eee2bb552dac54d44ac
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
