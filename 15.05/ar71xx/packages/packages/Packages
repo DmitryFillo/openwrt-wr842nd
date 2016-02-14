@@ -347,6 +347,102 @@ SHA256sum: 0c16a1bbf47722546c0257062792b33bb883b6ec4a1c46a9acac093e6b1cc08d
 Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.
 
+Package: ncat-ssl
+Version: 6.47-2
+Depends: libc, libpcap, libopenssl
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 319635
+Filename: ncat-ssl_6.47-2_ar71xx.ipk
+Size: 320130
+MD5Sum: b1082fd043223958283a69ad7fa297ac
+SHA256sum: acb8372961906f50042f3bac44221325d075eef3c5bc6326633bc93f63341699
+Description:  Ncat (with OpenSSL support)
+
+Package: ncat
+Version: 6.47-2
+Depends: libc, libpcap
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 51526
+Filename: ncat_6.47-2_ar71xx.ipk
+Size: 52274
+MD5Sum: bd5eb2adb6ab11ea9a2ec1ba8b230d11
+SHA256sum: 89098ab95fb6ee1695b4cbefc79af6e06ce7b43465e60d63a0a718ad73570b5b
+Description:  Much-improved reimplementation of Netcat
+
+Package: ndiff
+Version: 6.47-2
+Depends: libc, python
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1368
+Filename: ndiff_6.47-2_ar71xx.ipk
+Size: 2124
+MD5Sum: 54572c112ebdbe4464438f95cf63d48d
+SHA256sum: 285a92e9f8f1421fac57b9320e9738963829f2ac43dab91d1de87be8ba782c84
+Description:  Utility to compare the results of Nmap scans
+
+Package: nmap-ssl
+Version: 6.47-2
+Depends: libc, libpcap, libstdcpp, libopenssl
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1728828
+Filename: nmap-ssl_6.47-2_ar71xx.ipk
+Size: 1721771
+MD5Sum: 37430b4958e0d28727c98582b8fc5a8f
+SHA256sum: bdf006903e356a5f1f698373a3518ea1a85528127d10e8586609259a3325f701
+Description:  Nmap (with OpenSSL support)
+
+Package: nmap
+Version: 6.47-2
+Depends: libc, libpcap, libstdcpp
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1725133
+Filename: nmap_6.47-2_ar71xx.ipk
+Size: 1718327
+MD5Sum: 0fe12bb58b2a80dd7e3acd90daf70720
+SHA256sum: 249299aff9e2afc8d39d3d98a99fc4b6cacc51ec61a8cf336f4e3ac3ca9758dd
+Description:  Utility for network exploration or security auditing
+
+Package: nping
+Version: 6.47-2
+Depends: libc, libpcap, libpthread, libstdcpp
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 146159
+Filename: nping_6.47-2_ar71xx.ipk
+Size: 145663
+MD5Sum: 61abb0607b3e8ed3c6be581ad3ca28c7
+SHA256sum: 2c726414c02a18ae04955352177884b7f0df425ea1fb2877d01be69b9f6ad50d
+Description:  Network packet generation tool / ping utility
+
 Package: openssh-client-utils
 Version: 7.1p2-1
 Depends: libc, libopenssl, zlib, openssh-client, openssh-keygen
