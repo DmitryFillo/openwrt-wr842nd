@@ -28,6 +28,21 @@ SHA256sum: 0e8c6921e3c2a8f38f4a759348f81e105729d86eec293128e2d6804e9ea3eee6
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
+Package: block-mount
+Version: 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
+Depends: libc, ubox, libubox, libuci
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 17032
+Filename: block-mount_2016-01-10-96415afecef35766332067f4205ef3b2c7561d21_ar71xx.ipk
+Size: 17750
+MD5Sum: 925d546ea4fdec1caba2a129841ae33f
+SHA256sum: 8ecad644ed6f4535565a2b5579c262e98df2e6d8a1135ccef43fbef025063056
+Description:  Block device mounting and checking
+
 Package: busybox
 Version: 1.23.2-1
 Depends: libc, librpc
