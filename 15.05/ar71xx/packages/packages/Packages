@@ -903,3 +903,18 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
 
+Package: zoneinfo-europe
+Version: 2015d-1
+Depends: libc
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: ar71xx
+Installed-Size: 20837
+Filename: zoneinfo-europe_2015d-1_ar71xx.ipk
+Size: 21516
+MD5Sum: 624fd0858492e74b072b15fd83f8aea4
+SHA256sum: 175bee51e7839def694913311c4c1e515282f632bac9a1064291cc113af66a2c
+Description:  Zone Information (Europe)
+
