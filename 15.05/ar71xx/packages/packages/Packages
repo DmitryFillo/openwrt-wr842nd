@@ -985,6 +985,215 @@ SHA256sum: bf1a5baa1eadb413b69e650712f38daf8c2f49a9aa075b6e04b95f8c60a7332e
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
+Package: shadow-chage
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15762
+Filename: shadow-chage_4.2.1-4_ar71xx.ipk
+Size: 16522
+MD5Sum: fedda9b9445a5119ec3db5286aac8e70
+SHA256sum: fd848244357d3d93a14c3a0887984a2e5f461969bbe95d33846168c941089fe6
+Description:  Full version of standard chage utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-common
+Version: 4.2.1-4
+Depends: libc, libiconv-full, libintl-full
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4733
+Filename: shadow-common_4.2.1-4_ar71xx.ipk
+Size: 5506
+MD5Sum: f513ad6d796b640ef83923ced22cea8e
+SHA256sum: 89b3180d07a713d0f95efd52a2a4e3493ecc9bfcd66757824d8912870e07b110
+Description:  Shared definitions for the PLD Linux shadow utilities
+
+Package: shadow-groupadd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 13770
+Filename: shadow-groupadd_4.2.1-4_ar71xx.ipk
+Size: 14516
+MD5Sum: af230e745f138d69655dcbdb510791b6
+SHA256sum: c1894e11458a387ae5f2013efd8311853b60b0e8249e1ccae511e6770a22eb3d
+Description:  Full version of standard groupadd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupdel
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 12324
+Filename: shadow-groupdel_4.2.1-4_ar71xx.ipk
+Size: 13118
+MD5Sum: 210baaebd494f1cea4aa7c6a13ee249c
+SHA256sum: 49bf1bb4146faa54d95b5170164d35badd790195057315cca751b92a66202c0c
+Description:  Full version of standard groupdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmod
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15334
+Filename: shadow-groupmod_4.2.1-4_ar71xx.ipk
+Size: 16043
+MD5Sum: 7188d9c8ff339318571ea5b1fec6ecb6
+SHA256sum: f6da66abc2f3417c316595928bbfb6455be0d8a267b33a5e912b9e186202501c
+Description:  Full version of standard groupmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groups
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3029
+Filename: shadow-groups_4.2.1-4_ar71xx.ipk
+Size: 3817
+MD5Sum: 26b50e448f0af428fdf7220096d69c97
+SHA256sum: 0ba00b568e9c0597467a930912bc3c73c65c1f1c5517538e3d716c753c90c455
+Description:  Full version of standard groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-passwd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 16215
+Filename: shadow-passwd_4.2.1-4_ar71xx.ipk
+Size: 16902
+MD5Sum: a1b666b45636d2ef7eee5470a51fe9a1
+SHA256sum: 83c7ff57e8944dc964ef6238eb69c531c4a7b2632123aafa189095dc93145d9f
+Description:  Full version of standard passwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-su
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15987
+Filename: shadow-su_4.2.1-4_ar71xx.ipk
+Size: 16694
+MD5Sum: 3f92cfd7a315bb7780d8314b1e29942f
+SHA256sum: 98845b399a0541d71c3ab3c705ee75ce4b571fc74ea76741b75096185722dded
+Description:  Full version of standard su utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-useradd
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 26277
+Filename: shadow-useradd_4.2.1-4_ar71xx.ipk
+Size: 26847
+MD5Sum: 0b3c473a69538162abe5ee2c9681a866
+SHA256sum: ddc15d19c7e2e77a145f6840ce3acfd5a973b3f5808efef3057339b16087cffc
+Description:  Full version of standard useradd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-userdel
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 15668
+Filename: shadow-userdel_4.2.1-4_ar71xx.ipk
+Size: 16419
+MD5Sum: 3ace8895e4f637debf8f31b9cef1128e
+SHA256sum: c3f8c8ddd623b4b8274e6c523235908e75fa0d6a031d95d24809e40de67a8342
+Description:  Full version of standard userdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-usermod
+Version: 4.2.1-4
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 26363
+Filename: shadow-usermod_4.2.1-4_ar71xx.ipk
+Size: 26988
+MD5Sum: 951389cbcbe7f099537d9ce1e8c9a624
+SHA256sum: 58a5974e05bff7179e539421e4445be888a4c2b4ad38dc7a29ab12f4fdd737ca
+Description:  Full version of standard usermod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-utils
+Version: 4.2.1-4
+Depends: libc
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: shadow-utils_4.2.1-4_ar71xx.ipk
+Size: 894
+MD5Sum: 6ebf35e2bed0869fa5fe0bfddb8418a0
+SHA256sum: 0a43f40f618eac893ac251be6debd21d33e0f414bd4f3f04fddafc85d664961a
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadow
+Version: 4.2.1-4
+Depends: libc, shadow-chage, shadow-groupadd, shadow-groupdel, shadow-groupmod, shadow-groups, shadow-passwd, shadow-su, shadow-useradd, shadow-userdel, shadow-usermod
+Source: feeds/packages/utils/shadow
+License: BSD-3-Clause
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: shadow_4.2.1-4_ar71xx.ipk
+Size: 951
+MD5Sum: d58d55381c42d31af1639c3126a38f84
+SHA256sum: 3507e9ac9a5548c8d4752c6b9a51a27d7ba8a315225cedad0b0c1a9fa20972c8
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
 Package: sqlite3-cli
 Version: 3081101-1
 Depends: libc, libsqlite3, libncurses, libreadline
