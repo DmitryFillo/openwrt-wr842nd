@@ -53,11 +53,11 @@ Section: base
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 208039
+Installed-Size: 208022
 Filename: busybox_1.23.2-1_ar71xx.ipk
-Size: 208084
-MD5Sum: 6297d93c8167dda6b95bf797f06f3a16
-SHA256sum: 2da663e4b19d485acfb1449ac873c51ce00fa988dbf45c698ffb3793fb84355b
+Size: 208051
+MD5Sum: 7bca7eb922469f33662ab82664819122
+SHA256sum: d9e9ae9f34ef2147adac7b33fb61e0a51bccf047abc8f522f898ee425e8f342e
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
