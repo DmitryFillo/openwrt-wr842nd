@@ -36,6 +36,36 @@ Description:  Bash is an sh-compatible command language interpreter that execute
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
 
+Package: dbus-utils
+Version: 1.9.14-1
+Depends: libc, dbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 13479
+Filename: dbus-utils_1.9.14-1_ar71xx.ipk
+Size: 14141
+MD5Sum: f796185c284eea0c54831d50855113c8
+SHA256sum: 5ca0ca9e0e1771ae6ffbb7b4bc5f72903c4c86611d42a151b939f37fa84f8cf0
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.9.14-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 82594
+Filename: dbus_1.9.14-1_ar71xx.ipk
+Size: 83020
+MD5Sum: 9b570ac1422db11a372bccd27a40c90f
+SHA256sum: 767fc35eb5b5914110e13411753b0c15125391c73a93908970e077fdf1581413
+Description:  Simple interprocess messaging system (daemon)
+
 Package: glib2
 Version: 2.43.4-1
 Depends: libc, libiconv-full, libintl-full, zlib, libpthread, libffi, libattr
@@ -102,6 +132,21 @@ MD5Sum: 1533848992c1108a6bce6cf0004f6672
 SHA256sum: 5a84e66b57bd6d91bab0549bf77bad557d48833a649de9224dbed80928e76651
 Description:  Berkeley DB library (4.7).
 
+Package: libdbus
+Version: 1.9.14-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 98303
+Filename: libdbus_1.9.14-1_ar71xx.ipk
+Size: 99170
+MD5Sum: f6ba0f670998fd459f3f025d2d35c853
+SHA256sum: 1b9c8bfde5a181689a01c83f54488320a90a5c6e938db4f9da76cda8558d58d7
+Description:  Simple interprocess messaging system (library)
+
 Package: libdevmapper
 Version: 2.02.119-2
 Depends: libc, kmod-dm, libpthread
@@ -117,6 +162,22 @@ MD5Sum: d021f617a585be6c573b0d5e840e8907
 SHA256sum: 81a70fea2d60c892ef1b6dba08f7bdd38470268048d0331c218d68b1ec911f23
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 48153
+Filename: libexpat_2.1.0-3_ar71xx.ipk
+Size: 48777
+MD5Sum: cdd5e4e601be2d9c2a15f945bcd405c9
+SHA256sum: 4f106b949c88a1a75567fe7259be12a9321011800a8cdaa425ca9aa38228a037
+Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
 Version: 3.0.13-1

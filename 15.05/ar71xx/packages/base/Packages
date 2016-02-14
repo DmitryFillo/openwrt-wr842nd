@@ -12,6 +12,22 @@ MD5Sum: 3bd1d47ce4dcd8628c0620df681be2cd
 SHA256sum: 9c53de24324265ed51f8e05795ccbd34da356dc0041d346847d8b0a3742836ff
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
+Package: blkid
+Version: 2.25.2-4
+Depends: libc, libblkid, libuuid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ar71xx
+Installed-Size: 25699
+Filename: blkid_2.25.2-4_ar71xx.ipk
+Size: 26373
+MD5Sum: 928c7a841b5ff8772b3e88090faa727a
+SHA256sum: 0e8c6921e3c2a8f38f4a759348f81e105729d86eec293128e2d6804e9ea3eee6
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
 Package: busybox
 Version: 1.23.2-1
 Depends: libc, librpc
@@ -30,6 +46,21 @@ SHA256sum: 2da663e4b19d485acfb1449ac873c51ce00fa988dbf45c698ffb3793fb84355b
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
+Package: cal
+Version: 2.25.2-4
+Depends: libc, libncurses
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ar71xx
+Installed-Size: 13490
+Filename: cal_2.25.2-4_ar71xx.ipk
+Size: 14258
+MD5Sum: b8a3fc82e2460f547613e15812d8ad30
+SHA256sum: 409543b5b11b50a51cf476db25e74e191a08891bd311fa34420bf4028a28ddec
+Description:  cal displays a simple calendar
+
 Package: cfdisk
 Version: 2.25.2-4
 Depends: libc, libblkid, libncurses, libsmartcols
@@ -38,11 +69,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 94969
+Installed-Size: 94967
 Filename: cfdisk_2.25.2-4_ar71xx.ipk
-Size: 95810
-MD5Sum: 2b038ccd6ce59e2bde35849202ab0886
-SHA256sum: 7907cb22553db1964a507cc587e3fa820bdfd9f96711b8c3fcc07403af9f3d4b
+Size: 95785
+MD5Sum: 073b033d8a6d97a30634116700c6ab72
+SHA256sum: 213a481fd4c46f6ece952e10d86b11c1b8611dc4324f53fc9cc6f38ab27b9a7a
 Description:  cfdisk is a curses-based program for partitioning any hard disk drive
 
 Package: curl
@@ -69,11 +100,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 16459
+Installed-Size: 16456
 Filename: dmesg_2.25.2-4_ar71xx.ipk
-Size: 17247
-MD5Sum: ba85933c9486e2aad57f337114f63a75
-SHA256sum: e2de6b1d6370abb7ceb31f0713332e24bd73897c5f6fabf9476c49ab401e421a
+Size: 17240
+MD5Sum: 6c7bf4042d91963e54b8982798dbe4c7
+SHA256sum: 3a83e6fdf9d1fdb093f824a056d7006ac0ea9da35f47ff0e7b1f1d4718173396
 Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsmasq
@@ -128,11 +159,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 99344
+Installed-Size: 99341
 Filename: fdisk_2.25.2-4_ar71xx.ipk
-Size: 100214
-MD5Sum: 0d9fcc28215560a0a19ca70964f1ab9b
-SHA256sum: 169961313d0a3724a43174444bf5e40877eb8356d52a18495cc4ac79e1c9524b
+Size: 100219
+MD5Sum: 8f79c0eea70e886abf1b232e8bcadee5
+SHA256sum: 24e108a57b819767a57a7539fd575b842b91224a2a6482fb7302162f79ea2e00
 Description:  a menu-driven program for creation and manipulation of partition tables
 
 Package: flock
@@ -143,11 +174,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 7072
+Installed-Size: 7066
 Filename: flock_2.25.2-4_ar71xx.ipk
-Size: 7888
-MD5Sum: 512dafd3aaebf2972666eb8148a373de
-SHA256sum: 2a8692ff842a39b077186254d2599ad39bbb9d693e2477d2286d0a02b6836a6c
+Size: 7884
+MD5Sum: 249adcc575cf3e94c0708e09a7760872
+SHA256sum: 640172730f065d503ec3ddcd7742a734d51a7224c53f4b9de6f0413ddf653270
 Description:  manages flock locks from within shell scripts or the command line
 
 Package: fstools
@@ -189,11 +220,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 4648
+Installed-Size: 4647
 Filename: getopt_2.25.2-4_ar71xx.ipk
-Size: 5449
-MD5Sum: f2234260a667591a25af9330bedd733c
-SHA256sum: dd8a928d6873a5bcb70e726f88e9992ed76b61005aafcb1d862bfb96188ba3be
+Size: 5446
+MD5Sum: 8f4d29fdebe3296901e883a7f6504c18
+SHA256sum: e47d403eeea53d4fe34e7761c5af3aba9ccbfd8cd180c9ae7f1af904291fde5f
 Description:  getopt is used to break up (parse) options in command lines for easy parsing
  by shell procedures, and to check for legal options
 
@@ -1410,11 +1441,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 94596
+Installed-Size: 94595
 Filename: libblkid_2.25.2-4_ar71xx.ipk
-Size: 95485
-MD5Sum: 7f39ac73578a06738c2a2736a8f54dd2
-SHA256sum: 5e2a7049e184dc18e5ea57432e75c6d307a2e1bc3534fa4c6d3ce2cfe6f9b0ac
+Size: 95500
+MD5Sum: f1ecc3939a00cdb7e16c7b113d4f9e56
+SHA256sum: 5177d9d15164b4524ec441a9c8921c4f1015f0aa6e8ddbc62b469a124f20f824
 Description:  The libblkid library is used to identify block devices (disks) as to their
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
@@ -1674,11 +1705,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 89407
+Installed-Size: 89413
 Filename: libmount_2.25.2-4_ar71xx.ipk
-Size: 90343
-MD5Sum: aa16d2f625d65c7e40bebaa69a6fc120
-SHA256sum: c77b892c27abd55dd675178bb76a6c4c2f2726c9d8d3e53848d46bf97d518f11
+Size: 90344
+MD5Sum: 4a340c6d5d6f8a87f11c7cf813bf93f2
+SHA256sum: d04502d5c12765b46d6a1bdd59aedf799f63efe4bc7e621570fcc9b09b818d9c
 Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
  /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
 
@@ -1870,11 +1901,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 46035
+Installed-Size: 46034
 Filename: libsmartcols_2.25.2-4_ar71xx.ipk
-Size: 46874
-MD5Sum: caf21d56f107e3380d26bbcd9d4bdc3f
-SHA256sum: 6789768d9cf006e239f08593eabe8c2238ecdded3eddfe6d8931d7385ece77b5
+Size: 46880
+MD5Sum: 9b9ddccb33190779f45102a6d6b9b4d7
+SHA256sum: 67546303952424135bddf873605f1bcc598cba5075aa7d65cd8ed2ceeaee102e
 Description:  The smartcols library is used to print tables and trees in a pretty way.
 
 Package: libstdcpp
@@ -1962,11 +1993,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 5447
+Installed-Size: 5453
 Filename: libuuid_2.25.2-4_ar71xx.ipk
-Size: 6368
-MD5Sum: 575704bc2ca8bd06ac7fcb333cfcadb2
-SHA256sum: 671d4e123693b1c2aeaef41ea5af836792f61b0a40ddeb013380838d60ef3db8
+Size: 6376
+MD5Sum: 25c73edc00c86f39c2285d7e22f8ea15
+SHA256sum: 69b0391090d9de50e59d7820583624d2e37296405e06e0c01666ff572ae7a20d
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -1994,11 +2025,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 8069
+Installed-Size: 8065
 Filename: logger_2.25.2-4_ar71xx.ipk
-Size: 8905
-MD5Sum: 59760a4054d2b31bb4ee834f2f2480a1
-SHA256sum: a3c172a965cec0cea48ff7bf25a9b408a37c293bdb715ea5e1b685c88f7d716b
+Size: 8897
+MD5Sum: a525303ab6ae12daa52a627b4e7b6be0
+SHA256sum: 66b41bb2f124747f1748cfc9eb77eedffa44d60e474ae547ae0b42140b0eadb9
 Description:  logger makes entries in the system log, it provides a shell command interface
  to the syslog system log module
 
@@ -2211,6 +2242,21 @@ MD5Sum: 164270f8a74249d30a1ba48a05075bc8
 SHA256sum: c7bc2f92878df6913f7965728531bfee589479fe12d632d3f090d8b1c23f6db1
 Description:  Socket statistics utility
 
+Package: swap-utils
+Version: 2.25.2-4
+Depends: libc, libblkid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: ar71xx
+Installed-Size: 25651
+Filename: swap-utils_2.25.2-4_ar71xx.ipk
+Size: 26238
+MD5Sum: 4fb057e56215ccf7e190f4930244131a
+SHA256sum: 06125a9e402e7bc4bc21b69f067105f4f5638d84d250f9a6516c684f57813baf
+Description:  contains: mkswap, swaplabel
+
 Package: swconfig
 Version: 10
 Depends: libc, libuci, libnl-tiny
@@ -2368,11 +2414,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 9500
+Installed-Size: 9496
 Filename: uuidd_2.25.2-4_ar71xx.ipk
-Size: 10409
-MD5Sum: 5a697668c116b5c8bb4c94ce595492ca
-SHA256sum: 7e6803efa4d092db9ddade6b365358049988aea6cfc93cdf9e04d20ff99c0bb7
+Size: 10410
+MD5Sum: 0e2fc1c120e1ca2013092b07e575002e
+SHA256sum: 4c4f5017fd5630c437a26ea9e040a23d0b8cc0da6c25d821922a6ecdcc033891
 Description:  The uuidd daemon is used by the UUID library to generate universally unique
  identifiers (UUIDs), especially time-based UUIDs, in a secure and
  guaranteed-unique fashion, even in the face of large numbers of threads
