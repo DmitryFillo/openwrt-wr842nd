@@ -137,6 +137,19 @@ MD5Sum: 62975438c36e4a284e9837a96d767de9
 SHA256sum: 3a5ab29f23098ad0426af3cebd8787ebc60396ac2781457419b0b80e6c7f5bf5
 Description:  A small SSH2 server/client designed for small memory environments.
 
+Package: dumpe2fs
+Version: 1.42.12-1
+Depends: libc, e2fsprogs
+Source: package/utils/e2fsprogs
+Section: utils
+Architecture: ar71xx
+Installed-Size: 6928
+Filename: dumpe2fs_1.42.12-1_ar71xx.ipk
+Size: 7647
+MD5Sum: eb131035f7628cff95550158ec7456fb
+SHA256sum: 69d519dc68fd6d4bf7c64cb459c1771ea4ccb73f4b08b32068d123303264106a
+Description:  Ext2 Filesystem information dumping utility
+
 Package: e2fsprogs
 Version: 1.42.12-1
 Depends: libc, libuuid, libext2fs
@@ -2316,6 +2329,19 @@ Size: 6462
 MD5Sum: 80825a925ce0061ad54815fc5fa15f1b
 SHA256sum: 4e737d9d7718bd0b67fe16b62be4f61cd39ea2369fac7aab51f96fde59e3dbb0
 Description:  Terminal Info Database (ncurses)
+
+Package: tune2fs
+Version: 1.42.12-1
+Depends: libc, e2fsprogs
+Source: package/utils/e2fsprogs
+Section: utils
+Architecture: ar71xx
+Installed-Size: 42179
+Filename: tune2fs_1.42.12-1_ar71xx.ipk
+Size: 42837
+MD5Sum: b99021bcdb475daa512255c8195743bf
+SHA256sum: 12241c03adbc4ce84afb8edf44d97d70aebc2b18dde19afcd5c0dac46c76e0bb
+Description:  Ext2 Filesystem tune utility
 
 Package: ubox
 Version: 2015-11-22-c086167a0154745c677f8730a336ea9cf7d71031
