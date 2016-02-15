@@ -10,7 +10,7 @@ I'll be happy if you'll use something from here.
 Summary
 =======
 
-Minimalistic OpenWrt without girl's stuff like UCI firewall, web interface, uhttpd, etc. But I included important (for me) features: mc with subshell, UTF-8 support, bash, openvpn, su, tcpdump, htop, etc. Package repository is quite small too and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready for create pivot overlay with ext4 flash partition (fdisk, cfdisk, ext4 support, mkfs, swap utils).
+OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd, etc. But I included important (for me) features: mc with subshell, UTF-8 support, bash, openvpn, su, tcpdump, htop, etc. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready for create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils).
 
 This is very basic feautre overview, so some interesting stuff is not described. You can check build config for more information.
 
