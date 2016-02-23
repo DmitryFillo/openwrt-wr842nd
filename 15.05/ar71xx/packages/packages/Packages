@@ -1,3 +1,23 @@
+Package: acl
+Version: 20140812-1
+Depends: libc, libssp, libacl
+Source: feeds/packages/utils/acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 15444
+Filename: acl_20140812-1_ar71xx.ipk
+Size: 16072
+MD5Sum: cdfbf0b8909bf373a6f9a61d1b09257f
+SHA256sum: 8a13c39e8d9d5c16beb326d7870ada8ac095b08d1270d04b2fbca0de49af2b6b
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
 Package: attr
 Version: 20150220-1
 Depends: libc, libssp, libattr
@@ -9,9 +29,9 @@ Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: ar71xx
 Installed-Size: 11599
 Filename: attr_20150220-1_ar71xx.ipk
-Size: 12394
-MD5Sum: 461cbbd9007567bf7e8d30482908eb7b
-SHA256sum: 61c75b544c9beb9ca723ee643841a261e51bf79ad234382afb8f99049aadc64d
+Size: 12391
+MD5Sum: b9238f9a94a332eb563dfc55cf276671
+SHA256sum: 195acbc76a39aff3dd7f7c973b4c3e8eafc2efba64b9d1d09dec61849d3313d5
 Description:  Extended attributes support
  This package provides xattr manipulation utilities
  - attr
@@ -27,11 +47,11 @@ LicenseFiles: COPYING
 Section: utils
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: ar71xx
-Installed-Size: 316435
+Installed-Size: 316432
 Filename: bash_4.3.39-1_ar71xx.ipk
-Size: 317129
-MD5Sum: ddea6e1a7fca6cde2986957566b685ca
-SHA256sum: 724bb29b89dbb1f68246ef5967e243c1936375f64961a771aa94ba942a0046ee
+Size: 317133
+MD5Sum: 7d7f8b57458d43a26198b2d79246c73e
+SHA256sum: 00e724e9cfd99b437468d3304891c9d5884cba436bf6df2170d8f47021f5c580
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
@@ -44,11 +64,11 @@ License: AFL-2.1
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13596
+Installed-Size: 13597
 Filename: dbus-utils_1.9.14-1_ar71xx.ipk
-Size: 14274
-MD5Sum: fc5b6cef0dc2f6de6ba24920f5485395
-SHA256sum: 80a55be3da6252760728e308ae8c2b16251b11bfec9ebe3deb1494cd456b9430
+Size: 14272
+MD5Sum: 203ca99c5bd3c303cdc94c3b2855fe7e
+SHA256sum: f2b21dddb3b28c58f31a784319fafd358478558e690148211a53a51ce9e6bd6f
 Description:  Simple interprocess messaging system (utilities)
 
 Package: dbus
@@ -59,11 +79,11 @@ License: AFL-2.1
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 82533
+Installed-Size: 82528
 Filename: dbus_1.9.14-1_ar71xx.ipk
-Size: 82950
-MD5Sum: 028c0177e86d90aa3e09cde6d1723833
-SHA256sum: 888b2c5475290cb756aaaf54f7c045b448204a0215884b0cab50e98e49d4b100
+Size: 82949
+MD5Sum: 3898e4b50fd00722d4bd377a4bd025b2
+SHA256sum: c743cde5a866fe4455def4d4f26e943f14fe64fb32c30dca5b40e1bb8dc96fdb
 Description:  Simple interprocess messaging system (daemon)
 
 Package: glib2
@@ -73,11 +93,11 @@ Source: feeds/packages/libs/glib2
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 885959
+Installed-Size: 886324
 Filename: glib2_2.43.4-1_ar71xx.ipk
-Size: 878387
-MD5Sum: cb3e80f41d29cce37a9a4e8fd198bf22
-SHA256sum: a90061647371ed922c397592e45434d7de2386eb469d13a0e57338967f95e395
+Size: 878772
+MD5Sum: a3f504cd9b8a5bd152eaf285faae19c5
+SHA256sum: 85f8d2609271645df5edec587bf6f1d01be9333acf27f50dfc0d5a5de320bdd8
 Description:  The GLib library of C routines
 
 Package: htop
@@ -89,11 +109,11 @@ LicenseFiles: COPYING
 Section: admin
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: ar71xx
-Installed-Size: 44380
+Installed-Size: 44377
 Filename: htop_1.0.3-1_ar71xx.ipk
-Size: 45021
-MD5Sum: 1ec01b97248df18ca894bfbed2a2dba7
-SHA256sum: be48d7bbdcef5d48843efbb6f555ea20db39547d0c7e4ee53fc1173d9b463368
+Size: 45027
+MD5Sum: 00bf42eb97551508305a98c97b1c66aa
+SHA256sum: 99e40b6d70fd073752e826aae2a5fb90119957f6dda610d9acf55b5536c30e46
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
@@ -107,11 +127,11 @@ LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Section: libs
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: ar71xx
-Installed-Size: 11011
+Installed-Size: 11004
 Filename: libacl_20140812-1_ar71xx.ipk
-Size: 11792
-MD5Sum: 3cac7b8c1c9f3c8da1ee49173b0f1966
-SHA256sum: 7f5886a6a65c0b7887762f5883530756243df4fd2e0b476a60b6f0bfc5841263
+Size: 11774
+MD5Sum: 7a67effce155b1cde3c9eb7406758026
+SHA256sum: ace5f80daf9dc6861e8d76a8c8dc14f520f96f94805348017b70f4c87c75faf6
 Description:  Access control list support
  This package provides libacl
 
@@ -124,11 +144,11 @@ LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Section: libs
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: ar71xx
-Installed-Size: 6178
+Installed-Size: 6177
 Filename: libattr_20150220-1_ar71xx.ipk
-Size: 6996
-MD5Sum: b2dc838347e89db5bc908fef4b318a18
-SHA256sum: 5f4d44ec35c666814f4c18bfb36097a4d01200949e9a37ca380c96cdd6186713
+Size: 6988
+MD5Sum: d0e8372b1de1b778ff3f4f9f9a5b319d
+SHA256sum: 3597f2236f43f6939cbe436af9c9541b1d905dd17eaa9d253bb6d729aa4e6afc
 Description:  Extended attributes support
  This package provides libattr
 
@@ -142,11 +162,11 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: ar71xx
-Installed-Size: 444850
+Installed-Size: 444852
 Filename: libdb47_4.7.25.4.NC-4.1_ar71xx.ipk
-Size: 445550
-MD5Sum: e0212ec37ab7fbb9aa2b09b808dc4936
-SHA256sum: e08f1df57a50e2cd52ae2eeae14ffef32b0210b153ba1e786ef4dd2d6fb6c382
+Size: 445545
+MD5Sum: 008a82404d4dfccfd3705a85a13d0318
+SHA256sum: 732b37388ea83785dd97191c13ddd9a0ae4a0fc2166c9332f3e88a84f7e341b7
 Description:  Berkeley DB library (4.7).
 
 Package: libdbus
@@ -157,11 +177,11 @@ License: AFL-2.1
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 98784
+Installed-Size: 98785
 Filename: libdbus_1.9.14-1_ar71xx.ipk
-Size: 99635
-MD5Sum: 050e5dc71caf4f36078874ee5a7ea654
-SHA256sum: fadbf84fa76a40039f11fa0c38061fda534e2d9dc82023afa16f7d8a2020a829
+Size: 99633
+MD5Sum: 6e40e09550fce570f25da1cc39b73fae
+SHA256sum: 02297f9917f969ebbab056ee6eaad910ea1318bf4228f10097f1e508f6badf0f
 Description:  Simple interprocess messaging system (library)
 
 Package: libdevmapper
@@ -172,11 +192,11 @@ License: GPL-2.0 LGPL-2.1
 Section: libs
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: ar71xx
-Installed-Size: 91651
+Installed-Size: 91647
 Filename: libdevmapper_2.02.119-2_ar71xx.ipk
-Size: 92604
-MD5Sum: 5cc6dc4c555f69ab7cb317220b9a298b
-SHA256sum: e8e60a311fcde31936f9440eaf99541deba37ddf05966916ce5ef2ae433b5e67
+Size: 92586
+MD5Sum: d4775d7921ad287f94b4c5196fe4ed64
+SHA256sum: 79ff41851aaf7c36c9be36604cc0231c5b1687871177f9ba4bc422f1aec2d3e8
 Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
  volume management. It is required by LVM2 and EVMS.
 
@@ -189,11 +209,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 48295
+Installed-Size: 48297
 Filename: libexpat_2.1.0-3_ar71xx.ipk
-Size: 48919
-MD5Sum: 63750bbcf44424871190c1f565752edc
-SHA256sum: 91ba2c94247bb7cb8baf50a526abe4638345f80af249ca289e5ab34fd43d348f
+Size: 48927
+MD5Sum: a587b056c697daacf9496cfff798ed8c
+SHA256sum: c3593978abe9f7e163accc4ae2949575bb956141cb1a2a69ac0b8c3da33de070
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -205,11 +225,11 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 5617
+Installed-Size: 5612
 Filename: libffi_3.0.13-1_ar71xx.ipk
-Size: 6649
-MD5Sum: fc8e14c6cbb1b10eb2dfcefee48ce2cd
-SHA256sum: 25f1202c16ab971d6a86fa4a79a407206a1982c1f0416f0b3d7dbfe06342ffe0
+Size: 6641
+MD5Sum: fc7d49e374d6eccfbf05f9701b01b6df
+SHA256sum: 38d165e44e47f2f7185860a2bdf7e2cda8269f000628350597cfabf54931b423
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.
@@ -230,11 +250,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: ar71xx
-Installed-Size: 16020
+Installed-Size: 16021
 Filename: libgdbm_1.11-1_ar71xx.ipk
-Size: 16790
-MD5Sum: 5c06082a278301eb613351200fa3104d
-SHA256sum: 49ddec1977614982cdbd62425bf7a6788c1af4c8ccd7aed5bc6cb02e5ad4249d
+Size: 16794
+MD5Sum: bf381cd7e3bc5e9f3b5f14d49d98aa1a
+SHA256sum: 996d38de8d1bb820c62ccc33d104c28932f9ded2d3ba8fa8db7fdc82bf564f27
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -247,11 +267,11 @@ License: GPL-2.0
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 174185
+Installed-Size: 174182
 Filename: libmysqlclient_5.1.73-1_ar71xx.ipk
-Size: 165980
-MD5Sum: 083001b5f704d79ae89be9ebeb648b33
-SHA256sum: 27c69e9de46ec4656f2d85645412a6b65fdc6e74d0564d0c7c75c086ae2f1862
+Size: 165954
+MD5Sum: 26d31b1ea17116cc33f514e908b69fe7
+SHA256sum: 71dd7384c306899d0375737841d59b377fab6ca9dd7126127ab60e7873d5761a
 Description:  MySQL client library
 
 Package: libpam
@@ -261,11 +281,11 @@ Source: feeds/packages/libs/libpam
 Section: libs
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: ar71xx
-Installed-Size: 177816
+Installed-Size: 177812
 Filename: libpam_1.1.8-4_ar71xx.ipk
-Size: 178410
-MD5Sum: 8184d3bff7d0b2b848c0c816f39ed796
-SHA256sum: ad0c7f1f5851c63e82efebfb90a6f3856f26ccf342f41690970c0acd92040078
+Size: 178396
+MD5Sum: f8e41d820c131f71d80134b44fec1e28
+SHA256sum: 6e3d8caac95867ba91b31147444254cdba99d1c043ae1b36453b00f44f8a512a
 Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre
@@ -277,11 +297,11 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: ar71xx
-Installed-Size: 79552
+Installed-Size: 79549
 Filename: libpcre_8.38-1_ar71xx.ipk
-Size: 80399
-MD5Sum: ebb5207203e6828d738c7c61d71c6504
-SHA256sum: 553c709812b32424aeeff9211e6795e02d1d8cda21d3b2fe0c1bb37e442c68b5
+Size: 80406
+MD5Sum: f0d417380da800c3b66b00e8283a0c0f
+SHA256sum: 7fd8e2f9efec17991f69a1c7348fa8ad85b96d43e97b3505fb48291b24da1360
 Description:  A Perl Compatible Regular Expression library
 
 Package: libsqlite3
@@ -292,11 +312,11 @@ License: PUBLICDOMAIN
 Section: libs
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: ar71xx
-Installed-Size: 344746
+Installed-Size: 344745
 Filename: libsqlite3_3081101-1_ar71xx.ipk
-Size: 345070
-MD5Sum: 9f1d51a6d22fbe811147600ca3410d2b
-SHA256sum: 7538c9abd39a6d7d06749b7d9c9ae5d4c4f083adafc98ac4f22e68f7612866a3
+Size: 345073
+MD5Sum: d13e40ba88b5d98d3927951412ea8686
+SHA256sum: 0bfe233c47821f0454b05e53d1dfe9465065aa81f017711fc1dfa95d480c41aa
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -311,11 +331,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: ar71xx
-Installed-Size: 448289
+Installed-Size: 448281
 Filename: libxml2_2.9.2-3_ar71xx.ipk
-Size: 445964
-MD5Sum: 0a7f061d8d7238f117d07a56abdec467
-SHA256sum: ee0e1077c1dcf0b6a93666e410b11f0e81d3cca837c80d09cefd338aee42ab96
+Size: 445952
+MD5Sum: 8b38afa0f6efc0c77005282662d437ef
+SHA256sum: 5f9f88a568d50938b0846d2aee267f724b3fda98a41eacffebcc8834d0685019
 Description:  A library for manipulating XML and HTML resources.
 
 Package: lvm2
@@ -326,11 +346,11 @@ License: GPL-2.0 LGPL-2.1
 Section: utils
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: ar71xx
-Installed-Size: 476261
+Installed-Size: 476264
 Filename: lvm2_2.02.119-2_ar71xx.ipk
-Size: 475324
-MD5Sum: e8b4cfb819bf7d0cefdd45d4ca75bfbe
-SHA256sum: 9396469ea9c1167df6e9974bcd7be6e1f047049b1062553701aa1ff5b85acd62
+Size: 475321
+MD5Sum: 0930ae42fcf7207519fd5e8158dcd28a
+SHA256sum: b40ff85d04cc2e5ddb61b26d1c92f1510b3442f3788b6a3aa9a6858436384d0a
 Description:  LVM2 refers to a new userspace toolset that provide logical volume management
  facilities on linux. It is reasonably backwards-compatible with the original
  LVM toolset.
@@ -343,11 +363,11 @@ License: GPL-3.0+
 Section: utils
 Maintainer: Dirk Brenken <dibdot@gmail.com>
 Architecture: ar71xx
-Installed-Size: 336914
+Installed-Size: 336911
 Filename: mc_4.8.14-1.3_ar71xx.ipk
-Size: 337518
-MD5Sum: 3e5a6c946417822a04857243490d1c46
-SHA256sum: ebb3cd6aa0825e8cb5d99d6fe635c722c139bc452d2ac65afb0e428d744b294a
+Size: 337497
+MD5Sum: 65103833d8dc85adfdd6edb2d7ab6b7b
+SHA256sum: d98a4831b8cbcd407f193881ea6e7f224514b7961cf13098f991150135948815
 Description:  GNU Midnight Commander is a visual file manager,
  licensed under GNU General Public License and therefore qualifies as Free Software.
  It's a feature rich full-screen text mode application that allows you to copy,
@@ -363,11 +383,11 @@ LicenseFiles: COPYING
 Section: admin
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: ar71xx
-Installed-Size: 194969
+Installed-Size: 194968
 Filename: monit_5.14-1_ar71xx.ipk
-Size: 194768
-MD5Sum: 6020f6aa6a913441b761d588b1a54e8d
-SHA256sum: 1b11b7056e572e02d62c095dd6c4ef81e5d7bafca2d1b5df464eda75507576f4
+Size: 194765
+MD5Sum: c4e392d4cc89a3015aa4ad7f9b586075
+SHA256sum: b9b83c231e0468f849587cc6ae8557d0700f9aec5e0b881420ba56d0f7a4f5ee
 Description:  An utility for monitoring services on a Unix system
  This package is built with SSL support.
 
@@ -379,11 +399,11 @@ License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
 Architecture: ar71xx
-Installed-Size: 25933
+Installed-Size: 25934
 Filename: mtr_0.86-1_ar71xx.ipk
-Size: 26695
-MD5Sum: 53764b32c82a94f0f65ad926798c529d
-SHA256sum: eeb2bab491909c3cd703e27f76ceff6fa49dba8a21e62931c6362bd67df8a921
+Size: 26715
+MD5Sum: 6e4fe20108614558dab138a92e459c67
+SHA256sum: 494fe308c6ddcbca668bfe24b913fd3d60ce9d00b86e5e41e89e73928acdad17
 Description:  mtr combines the functionality of the 'traceroute' and 'ping' programs
  in a single network diagnostic tool.
  As mtr starts, it investigates the network connection between the host
@@ -401,11 +421,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 2301005
+Installed-Size: 2301019
 Filename: mysql-server_5.1.73-1_ar71xx.ipk
-Size: 2267911
-MD5Sum: 59bedcf820261d097513b75766853f61
-SHA256sum: 2e94b704e0a1e44e0e45f6f14dbe40b439bc6192ba2a4ca08c6fc6070393b542
+Size: 2268422
+MD5Sum: d16e7f6f393c406b1092ed5c206b47b4
+SHA256sum: 240936ec223810851824d46b9eb2b390ef65d7051379140de93c347af126ac11
 Description:  MySQL Server
 
 Package: nano
@@ -419,9 +439,9 @@ Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: ar71xx
 Installed-Size: 24952
 Filename: nano_2.4.1-1_ar71xx.ipk
-Size: 25635
-MD5Sum: bf6434e1a4bca99c79c81cba2abd1841
-SHA256sum: fcdf6de782e1d6150b1304f25922f2ad0c59890092cccde43e6fbccec03abf5a
+Size: 25642
+MD5Sum: 95b8358ec307b879dad76406a3624096
+SHA256sum: 3971bb698058165f284ab15e595a7419e056488b5e4b5a51b394cd5836d23b6d
 Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.
 
@@ -434,11 +454,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 319411
+Installed-Size: 319412
 Filename: ncat-ssl_6.47-2_ar71xx.ipk
-Size: 319921
-MD5Sum: eaf4e0e556405b1486d2a4bf6e1109dc
-SHA256sum: c3784ffdec3246367915c78a8a942961c0667cb917ea4b601b2d77c22d8d4899
+Size: 319928
+MD5Sum: c6c7bef85d6e639e1a1914b1f6999870
+SHA256sum: 17ba443d1e688c52d7b12ba83484af9cb120f5113ce9dc18a5e5a0ba80186bd0
 Description:  Ncat (with OpenSSL support)
 
 Package: ncat
@@ -450,11 +470,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 51193
+Installed-Size: 51194
 Filename: ncat_6.47-2_ar71xx.ipk
-Size: 51974
-MD5Sum: dbe7341c6bf0130c893367759a9bf8a9
-SHA256sum: 69220644d8f09514958b3d6d02861d0f5224b0d925c647efe7cd5c60bfb16d87
+Size: 51965
+MD5Sum: 535fa3e358866d82d02336be2250dac0
+SHA256sum: e48634f79801d7330d3a506695f0908ec429085a5767a24c9256626f2e18ae27
 Description:  Much-improved reimplementation of Netcat
 
 Package: ndiff
@@ -466,11 +486,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 1367
+Installed-Size: 1368
 Filename: ndiff_6.47-2_ar71xx.ipk
-Size: 2128
-MD5Sum: f550ce0c14697bbcc0c42265d4b3861f
-SHA256sum: 4f1fc94f8e162e39d601c2254bf6ec99af12e556f0ed2ae6f8f164779ee40150
+Size: 2131
+MD5Sum: 76e7b961041df7926e243aafe8b3c113
+SHA256sum: bb3fff4798e90ddf837985edc5748c6a0c284d06322cb4ed247d275ccd9a9f1e
 Description:  Utility to compare the results of Nmap scans
 
 Package: nmap-ssl
@@ -482,11 +502,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 1730320
+Installed-Size: 1730299
 Filename: nmap-ssl_6.47-2_ar71xx.ipk
-Size: 1722957
-MD5Sum: 89e125bddbb79770be336d8d48e43576
-SHA256sum: bdd064be355533c25112c0c63c8bc839431aae8f8849b6ad7ee502023f89f827
+Size: 1722884
+MD5Sum: 37bd0a77388d74d13302d4a8ca3f0cc4
+SHA256sum: de13f201a452d62078ebdd5d567ab5240b43b90abd8105427d281b603443e0b0
 Description:  Nmap (with OpenSSL support)
 
 Package: nmap
@@ -498,11 +518,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 1727258
+Installed-Size: 1727249
 Filename: nmap_6.47-2_ar71xx.ipk
-Size: 1720563
-MD5Sum: e7a19733c3db370a364f903894019951
-SHA256sum: eca42d2042818eda030bea91295c1f9e68df8183c4035ec63470feb4c6883395
+Size: 1720501
+MD5Sum: af1e7a74ef71b492af8421e3f94fe94e
+SHA256sum: 520304e3eb06b836f120a736c07e26dd514c8f661e1e7e9c6921efa71bd72a76
 Description:  Utility for network exploration or security auditing
 
 Package: nping
@@ -516,9 +536,9 @@ Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
 Installed-Size: 146459
 Filename: nping_6.47-2_ar71xx.ipk
-Size: 146070
-MD5Sum: 147623347278892d598ccb4683541354
-SHA256sum: cf84ea2f5e3d9f9b114e255dce416c150125c5fbb81685d256fae23c7af2f467
+Size: 146093
+MD5Sum: 962857d1ea30c17536e03eaaffc36c36
+SHA256sum: 02b7f78bfe438d4f196a486b0a806a3585de5ad1e592895925bc14698e2c9568
 Description:  Network packet generation tool / ping utility
 
 Package: openssh-client-utils
@@ -530,11 +550,11 @@ LicenseFiles: LICENCE
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 687610
+Installed-Size: 687605
 Filename: openssh-client-utils_7.1p2-1_ar71xx.ipk
-Size: 685374
-MD5Sum: 267bd0d4e3299704efa4f18066b8bf9c
-SHA256sum: 4fc478d28fde53981fcbfd77e1e6fdf47a0725d16d26e3bd84b3edad6ccc703c
+Size: 685365
+MD5Sum: 704a6afa6707cbcf4bb83676542263d2
+SHA256sum: 2a10b87355e6cec2ac51658e339063fb3b68d93b60c2703953c97cf76eace620
 Description:  OpenSSH client utilities.
 
 Package: openssh-client
@@ -546,11 +566,11 @@ LicenseFiles: LICENCE
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 329353
+Installed-Size: 329358
 Filename: openssh-client_7.1p2-1_ar71xx.ipk
-Size: 329530
-MD5Sum: 14e4e93de5d529a3bdda344135ace463
-SHA256sum: 5ac6a0949f8598bd7da6239786878d98c8579bad12c67f844295917e855fdf35
+Size: 329529
+MD5Sum: 9e557ff4e5e4f25307604cf3ccd6e843
+SHA256sum: 9ffb97cc1dbf10e22fc0b375b7c71277675a1577cfe0061b5675f1020e06496b
 Description:  OpenSSH client.
 
 Package: openssh-keygen
@@ -562,11 +582,11 @@ LicenseFiles: LICENCE
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 180183
+Installed-Size: 180182
 Filename: openssh-keygen_7.1p2-1_ar71xx.ipk
-Size: 180316
-MD5Sum: d72446f99334520a5f4dffd7f30ebda3
-SHA256sum: 70afd5a8491cd3678fd08ccf33c84acb66dc07b3a0c012fd59adb0939aa31b81
+Size: 180319
+MD5Sum: 5b82d2cc77e59995c4f2b4d6db68070c
+SHA256sum: f428715b05dc6a1e05e6e775030d1e3a110fefe9e161c559aa0db2bcc4f224ec
 Description:  OpenSSH keygen.
 
 Package: openssh-moduli
@@ -580,9 +600,9 @@ Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
 Installed-Size: 9903
 Filename: openssh-moduli_7.1p2-1_ar71xx.ipk
-Size: 9711
-MD5Sum: 3c448a8a84167841c94d2db527f6531c
-SHA256sum: 67bbea72573b11978c7e5181d874d271f11cb0a51c8d6b74c85a5dda0ce42343
+Size: 9710
+MD5Sum: 5e56d3e1ac2aebba8a1c24b0a97eca2a
+SHA256sum: a08d57b4fc01d2ce87852d715d28159a5b2dc6a78ff86c55471149575e1f4595
 Description:  OpenSSH server moduli file.
 
 Package: openssh-server-pam
@@ -595,11 +615,11 @@ Section: net
 Require-User: sshd=22:sshd=22
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 326026
+Installed-Size: 326047
 Filename: openssh-server-pam_7.1p2-1_ar71xx.ipk
-Size: 326365
-MD5Sum: bcba954b9d03a03685c98632d16a251d
-SHA256sum: fbc041b4bf93ac46a04fc9a91073f9b983c7c166250e6ffa385876842682100c
+Size: 326369
+MD5Sum: 10fd3bdddc4ffb457f3214c28d2560a6
+SHA256sum: e3ed0c83f8afc82fca47b9911de09d68223d06f3b4999d6fff78a60bf43637f7
 Description:  OpenSSH server (with PAM support).
 
 Package: openssh-server
@@ -612,11 +632,11 @@ Section: net
 Require-User: sshd=22:sshd=22
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 316822
+Installed-Size: 316823
 Filename: openssh-server_7.1p2-1_ar71xx.ipk
-Size: 316816
-MD5Sum: 35b8f16efa90ef3cf10a032b3886b6c8
-SHA256sum: e7626740b7410cd5c46d72a980b72425b047224630fd27b845e95e58b411a643
+Size: 316802
+MD5Sum: 6540f8d9634db09b1196913f092f7e56
+SHA256sum: 9cf4bbe4148bdeaf1dfb12d44858dc8d4d40b66881ca10b6766cc7a7117d453e
 Description:  OpenSSH server.
 
 Package: openssh-sftp-client
@@ -628,11 +648,11 @@ LicenseFiles: LICENCE
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 48807
+Installed-Size: 48811
 Filename: openssh-sftp-client_7.1p2-1_ar71xx.ipk
-Size: 49668
-MD5Sum: 3888c63b96fb9d4824aa7f3cb357cd81
-SHA256sum: 74f27b6314f2cf9a932df641ba4f75c1b541d191560a9be66ed01d424231390a
+Size: 49680
+MD5Sum: cebf7b354dec5de2eed1edb419972a54
+SHA256sum: 680893890f7aca847b04a18b1ffa0a87cf322f5f8bd1215ee07941579c1c945b
 Description:  OpenSSH SFTP client.
 
 Package: openssh-sftp-server
@@ -644,11 +664,11 @@ LicenseFiles: LICENCE
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 33151
+Installed-Size: 33152
 Filename: openssh-sftp-server_7.1p2-1_ar71xx.ipk
-Size: 33891
-MD5Sum: 2b33f8aa72e993dcdf39b3d78e352276
-SHA256sum: b72f63dd041eb8794634bf441de58166c6b49fe0406e567b9a9c7cfa3a2c70f0
+Size: 33892
+MD5Sum: a5250732bd7c3c6c76c30cbbc5e85a74
+SHA256sum: d9a5d2a65c8585ec1278a7e9923ceecbe2fa70e9e909a3ef087cfa1eb9c13dc2
 Description:  OpenSSH SFTP server.
 
 Package: python-base
@@ -660,11 +680,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 714332
+Installed-Size: 714294
 Filename: python-base_2.7.9-6_ar71xx.ipk
-Size: 711763
-MD5Sum: bdb585d6e9cec7e6d8b621f46ccbde92
-SHA256sum: aa57ddf4073306c3595b7ba54634080cfd7a8f87b950ea97427d19b1aa7bc722
+Size: 711698
+MD5Sum: efb25c353056fabf6859b1c3a849e897
+SHA256sum: 550203efc388675deef30d718649128ad4fd5571a7bf3cb9c34df5ff03ea3079
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -677,11 +697,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 883231
+Installed-Size: 883824
 Filename: python-codecs_2.7.9-6_ar71xx.ipk
-Size: 859873
-MD5Sum: 7d85bdfcdbc7dd363d9d5e6743fa0563
-SHA256sum: 963b9686559d61869e4e65b683380421c9c65e5fc07866fef970dc60192337c7
+Size: 860586
+MD5Sum: 7c661cb5abc50a4da630dc2ce94b08b7
+SHA256sum: 2256e309cae7663e74da9dc9198c1c8a0c2c5ece967e2f7f58b2147ca7171013
 Description:  Python 2.7 codecs + unicode support
 
 Package: python-compiler
@@ -693,11 +713,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 37800
+Installed-Size: 37799
 Filename: python-compiler_2.7.9-6_ar71xx.ipk
-Size: 38728
-MD5Sum: d8da68c5c8251415e17aaf8265da354a
-SHA256sum: 002532e825d90fa0e2fdd7c452810e68b1ec67322d7a5b97d4fbd1ed0617a5e4
+Size: 38717
+MD5Sum: 672d9df153180eff1bab5e3697c568a2
+SHA256sum: c1b68ec48ec866f42675fd664ee57acbfcc55aea7e00a7824b73349e02b9873a
 Description:  Python 2.7 compiler module
 
 Package: python-ctypes
@@ -709,11 +729,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 99129
+Installed-Size: 99111
 Filename: python-ctypes_2.7.9-6_ar71xx.ipk
-Size: 100050
-MD5Sum: a66f1c22dd020ce9d60a71efdeaf89ed
-SHA256sum: 003e7aae842212f8fc80ca610d82e3bef3341e6b86622a7a3ae5bee9f20721c9
+Size: 100038
+MD5Sum: 6f11e16544ab756c75d384cdb19d7565
+SHA256sum: 0d958697b749d77abe5b90ef43aca030f2aa236a3bd143d58bb658fcf93a42e0
 Description:  Python 2.7 ctypes module
 
 Package: python-db
@@ -725,11 +745,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 102000
+Installed-Size: 102020
 Filename: python-db_2.7.9-6_ar71xx.ipk
-Size: 102152
-MD5Sum: 9c7fdb622a91331eea70ddc10fb13263
-SHA256sum: 60f8013898d2ab9a5e4df9293a5acfb95014883b8d3e25b1afcfd40db433ce06
+Size: 102161
+MD5Sum: 22d6fc86637eb6c1c2d9fc4f90938915
+SHA256sum: 8723c226b6aa0053a9f075e9e43ac45c80ce7e8e50a31dbf460c32fb9e24735d
 Description:  Python 2.7 db module
 
 Package: python-decimal
@@ -743,9 +763,9 @@ Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
 Installed-Size: 47099
 Filename: python-decimal_2.7.9-6_ar71xx.ipk
-Size: 48029
-MD5Sum: 07a848d64fd18f37eaa90decceb25d5f
-SHA256sum: 3b8b7c4c43ef258a155996b38187725c399d38df53ed131f698243f94f2874ed
+Size: 48026
+MD5Sum: 59a32c0646f05d190ef380b54ac855e3
+SHA256sum: 31b243b26d1614e70faf129fb648bf5753a2740d4c053c1db048c50c535a0652
 Description:  Python 2.7 decimal module
 
 Package: python-distutils
@@ -757,11 +777,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 542175
+Installed-Size: 542144
 Filename: python-distutils_2.7.9-6_ar71xx.ipk
-Size: 543188
-MD5Sum: 3e5bfdb07783de0659df1541ccb13cef
-SHA256sum: 1871d4e94c084fdb674d2c9046323d81013205b5155da74786cc30f3ad6cb449
+Size: 543142
+MD5Sum: 9c3b39d4163778a37ab4f68fd5e81a10
+SHA256sum: 45149e4d6fd677f30535220e6db011befb9901a667384752721926ce0b0aacd0
 Description:  Python 2.7 distutils
 
 Package: python-email
@@ -773,11 +793,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 145022
+Installed-Size: 145011
 Filename: python-email_2.7.9-6_ar71xx.ipk
-Size: 145927
-MD5Sum: 50332c05842cab8ad5b1affcf12cd162
-SHA256sum: 15a9c03cfa920d385c6da11081e421f1dba31de3e10cedaf09ddcfae24b8e81d
+Size: 145882
+MD5Sum: 57632e2f849bd12ab052ad3cad136ed5
+SHA256sum: a319a918445b9b4e84aa9c6fd891d4620cf1f2e3cda2703a71beb57a12f95e71
 Description:  Python 2.7 email module
 
 Package: python-gdbm
@@ -789,11 +809,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 5662
+Installed-Size: 5654
 Filename: python-gdbm_2.7.9-6_ar71xx.ipk
-Size: 6465
-MD5Sum: 6e15a57bfcd06d7c1ff83e732f393276
-SHA256sum: 59b7fcd443d47f16b67f928666714ed248f402df1fae46005f3e8478912cc687
+Size: 6457
+MD5Sum: 14a79200b7d476e14a766e5daa56134a
+SHA256sum: ade7c569e37a156a0ba03bc5228aa9500f601a700067fabab65a86638c45a560
 Description:  Python 2.7 gdbm module
 
 Package: python-light
@@ -805,11 +825,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 1242459
+Installed-Size: 1242326
 Filename: python-light_2.7.9-6_ar71xx.ipk
-Size: 1241283
-MD5Sum: 49c98968abffbb5aee1af6b00abf79ca
-SHA256sum: fdf3e7fa9fe0e49f1a3739079ede68d44b335a8d43d332d55316145e978bc4f5
+Size: 1241136
+MD5Sum: 0ba9b8ff4e682ae31fc0623e920a5523
+SHA256sum: 94c74e6882dc4cc70ede4b10f87a08e799d94f5ce8e6697802f9b9bedf220e29
 Description:  This package is essentially the python-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -823,11 +843,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 37142
+Installed-Size: 37140
 Filename: python-logging_2.7.9-6_ar71xx.ipk
-Size: 38006
-MD5Sum: fa9358eb2f77658ffd8e8a05bbaedbe8
-SHA256sum: 8dc37fa12e0558d8c2e69cb64d306347813e16ed1f5e0de66982b22283da8c78
+Size: 37996
+MD5Sum: 125b40cb97aa68c5bd38435cd428cc0d
+SHA256sum: e34b2f133d990170b04437839958520c23dec3de01b61284cebf6a97ece0e54a
 Description:  Python 2.7 logging module
 
 Package: python-multiprocessing
@@ -839,11 +859,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 46377
+Installed-Size: 46371
 Filename: python-multiprocessing_2.7.9-6_ar71xx.ipk
-Size: 47210
-MD5Sum: eeb115f0e429496115730e45a46bb3d2
-SHA256sum: f2cedbf6db57be1c6ceebb33c949438e885702b44b4ac9327fd6e6029d0f7420
+Size: 47200
+MD5Sum: 30d34d44891f541452641ab57bfa9632
+SHA256sum: a8a35a93d6559be316ab5aafe16f94ccba6881d70aabfb76728cad360071a706
 Description:  Python 2.7 multiprocessing
 
 Package: python-ncurses
@@ -855,11 +875,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 26492
+Installed-Size: 26494
 Filename: python-ncurses_2.7.9-6_ar71xx.ipk
-Size: 26781
-MD5Sum: cb4fe77e227b31c45e8129ecac9f7f30
-SHA256sum: adf9c005737847b795233d3613ecb0c0f2b196b8a82e1c4e43d3078fd44fc855
+Size: 26790
+MD5Sum: 4ff4f585a969cb04cb2770b1fdf1305c
+SHA256sum: 89986efd2036096631210558803734601c5489b013be86c1edab7d23ea53f833
 Description:  Python 2.7 ncurses module
 
 Package: python-openssl
@@ -871,11 +891,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 33935
+Installed-Size: 33932
 Filename: python-openssl_2.7.9-6_ar71xx.ipk
-Size: 34214
-MD5Sum: 651313425d7ca569476cb424bf824442
-SHA256sum: ca52da30bdd34cc8c362dde03fcc81e82cacf550627c949d6fde9bd3f40039a9
+Size: 34228
+MD5Sum: 10a1656583ec4eb1c43ef03e4940063e
+SHA256sum: 7deb852fe507c368a6e6e8df4fe677d522d892e9e07cd68b1ea3b1249df3fc03
 Description:  Python 2.7 SSL module
 
 Package: python-pip
@@ -884,11 +904,11 @@ Depends: libc, libssp, python, python-setuptools
 Source: feeds/packages/lang/python-pip
 Section: lang
 Architecture: ar71xx
-Installed-Size: 737409
+Installed-Size: 737414
 Filename: python-pip_1.5.6-1_ar71xx.ipk
-Size: 726011
-MD5Sum: 4424ee70a4c821aad84e558338bb5706
-SHA256sum: c335f550ee02a0f86c6e621e91499ab71824bc6d869d12baeec0b815d67e7b77
+Size: 725989
+MD5Sum: 028a56d90b242982c04628b2801b7b42
+SHA256sum: 76e2b99fb79d149a1ae56604f2842d71d3313cdeb4636f801b30158c01408335
 Description:  A tool for installing and managing Python packages.
 
 Package: python-pydoc
@@ -900,11 +920,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 164546
+Installed-Size: 164542
 Filename: python-pydoc_2.7.9-6_ar71xx.ipk
-Size: 165406
-MD5Sum: a64e0177905ebc88d6740577c9804c8d
-SHA256sum: 82fc2af21baddd704add0772604193ad43d24cec4d8e014101e09a75b00f6eaa
+Size: 165420
+MD5Sum: 3a26998b22ba7cf695d77fa85cff7cf3
+SHA256sum: 8351e5a437c35fc00ef59fc779dc1dd881f4ce02b482cb5ecc8b1c9d1fd42a72
 Description:  Python 2.7 pydoc module
 
 Package: python-setuptools
@@ -913,11 +933,11 @@ Depends: libc, libssp, python
 Source: feeds/packages/lang/python-setuptools
 Section: lang
 Architecture: ar71xx
-Installed-Size: 203120
+Installed-Size: 203114
 Filename: python-setuptools_7.0-1_ar71xx.ipk
-Size: 203976
-MD5Sum: 124a8af3c779d5d71566cb19fc1137b5
-SHA256sum: a8d7b0a661e28e9431e10d66f993b9438d70fa5d3bdc894c2ec70df48f0b9116
+Size: 203967
+MD5Sum: e381781477b46897e38600371d8c7336
+SHA256sum: 1ef70e2351d89fc5c42361f53e50918d30038a91095d48501593bc2798c9b863
 Description:  Easily download, build, install, upgrade, and uninstall Python packages
 
 Package: python-sqlite3
@@ -929,11 +949,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 41877
+Installed-Size: 41864
 Filename: python-sqlite3_2.7.9-6_ar71xx.ipk
-Size: 42787
-MD5Sum: 406a7e04556588c8a3d8d101b6aa4df8
-SHA256sum: 28b9013cd142c1c96b3fb83513faf05f7fdde92443a2df4105af4d38639b35f2
+Size: 42776
+MD5Sum: 2db4f89e7af75ba412b4104cc66f58b2
+SHA256sum: e5fc236b7508919e39703a52eb4fb216a976da9ae796718d2daf8207ffe09f03
 Description:  Python 2.7 sqlite3 module
 
 Package: python-unittest
@@ -945,11 +965,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 54188
+Installed-Size: 54192
 Filename: python-unittest_2.7.9-6_ar71xx.ipk
-Size: 55072
-MD5Sum: 9821528a451e3ee9eaea1d950c8ea450
-SHA256sum: 7c2d15478668e8bed233c73b01376e670cef0b99c2fff7120c802c27516b539b
+Size: 55061
+MD5Sum: 9bee178644aa219a261b4a63ad221c3a
+SHA256sum: b7e4cf4be28c8f31c3ea1a167f6e54d3dba1a3603fbfcc84cc8c2293ecc8d152
 Description:  Python 2.7 unittest module
 
 Package: python-xml
@@ -961,11 +981,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 157248
+Installed-Size: 157241
 Filename: python-xml_2.7.9-6_ar71xx.ipk
-Size: 157750
-MD5Sum: 95b21bde2c092707b80c32911ae2a6ad
-SHA256sum: deaa07ae6b53be79762cb71b079dd548d02785dab818fabeb34bb5c320839d9b
+Size: 157621
+MD5Sum: 6cfa71523285fb187864ce5f65938feb
+SHA256sum: e3098196d1c174d2e8a7898561b937ab12a371ed54270b2b99cf2e7b12d2f9ba
 Description:  Python 2.7 xml libs
 
 Package: python
@@ -977,11 +997,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: ar71xx
-Installed-Size: 104
+Installed-Size: 105
 Filename: python_2.7.9-6_ar71xx.ipk
-Size: 1024
-MD5Sum: 65d305a6eab35bc670f4ec3dc599d482
-SHA256sum: d4dbf4a2a66d164820b30e785032695d890f6e68ea28ee4722edef48e9cd9608
+Size: 1021
+MD5Sum: 6570dab15833fce36e843d79b82545c2
+SHA256sum: 4344ac769e912a98fdeed3f2b62702ab6e0ffa5bd32d3364afde23e0993bf6c6
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
@@ -995,9 +1015,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 15854
 Filename: shadow-chage_4.2.1-4_ar71xx.ipk
-Size: 16612
-MD5Sum: 9a68694a9c109fc03857050fb9ea7353
-SHA256sum: 98c8e81b21a4c9f19d0341459e811816b00787b3e6121c6477054ea4764f5c59
+Size: 16620
+MD5Sum: df874ca5d8defbfc02955c93af70870c
+SHA256sum: d70dfd3f07c0379e7786c2a967d040d331aa701bb189cec06184cf50d40fedaf
 Description:  Full version of standard chage utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1009,11 +1029,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4733
+Installed-Size: 4732
 Filename: shadow-common_4.2.1-4_ar71xx.ipk
-Size: 5515
-MD5Sum: 4a2dc21f5f22149693d08887b912b7aa
-SHA256sum: 967c8b25ed947a499be195940ea9b8df71aa0633fb1daf65a37c0a81fbebad05
+Size: 5508
+MD5Sum: 9e575113e567f9cf6213508929c5399e
+SHA256sum: 819a2b21212672c2cfd88dc3bd3fdd2ecec20c265a01b69a199ebe769f231a34
 Description:  Shared definitions for the PLD Linux shadow utilities
 
 Package: shadow-groupadd
@@ -1024,11 +1044,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 13891
+Installed-Size: 13892
 Filename: shadow-groupadd_4.2.1-4_ar71xx.ipk
-Size: 14649
-MD5Sum: 8175d2304a28473d6fe76fc52320d094
-SHA256sum: a550122cd5f4a760638b63539b0e7ffed740e7f66276d8c42c14eec49802e859
+Size: 14643
+MD5Sum: 6921f9452428b680ee3457d211657487
+SHA256sum: 6edcdb5bf652b47b94205e1bd0a8a3b9f9235e233a13b16851e7fdba68a9e282
 Description:  Full version of standard groupadd utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1040,11 +1060,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12401
+Installed-Size: 12403
 Filename: shadow-groupdel_4.2.1-4_ar71xx.ipk
-Size: 13202
-MD5Sum: 12689c862da48aa3306a2109b2de9396
-SHA256sum: 0919e634a086676e7216dd631b44f2ee6ef4e7adb20ad593ea550568003c39e0
+Size: 13193
+MD5Sum: 32706d0ae10b2e6e63620a001aa228c9
+SHA256sum: 73941af9a6e6a465a857a43b9023fc8052e91a220112d4c8a44b59a0f581554f
 Description:  Full version of standard groupdel utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1058,9 +1078,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 15449
 Filename: shadow-groupmod_4.2.1-4_ar71xx.ipk
-Size: 16177
-MD5Sum: a27ee2a99fb9dca292b23672c371c945
-SHA256sum: 4efd78f148f83c6afd408dd215e699390f319fd22bc5ddf126a0a4d7b372a310
+Size: 16182
+MD5Sum: 2729a03da3620608134634dd3767a6f4
+SHA256sum: a5c61ce5b0a5d2e03e8bcc7ace4a643ababab48495adfcc25f0e8d33b518d54e
 Description:  Full version of standard groupmod utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1074,9 +1094,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 3035
 Filename: shadow-groups_4.2.1-4_ar71xx.ipk
-Size: 3830
-MD5Sum: 042e2a12d31e46b5ad863db57130a994
-SHA256sum: 25526f1c65aa72eab381ca3ebc7e917cf6508ccb5a01d5c1e7b2928edc947717
+Size: 3833
+MD5Sum: 4495ce5bbdafb9d00d94042ad61c69aa
+SHA256sum: 260f461350c8621d56213cb528bfc73e1334b345d3c24622817896513d797274
 Description:  Full version of standard groups utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1088,11 +1108,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 16340
+Installed-Size: 16339
 Filename: shadow-passwd_4.2.1-4_ar71xx.ipk
 Size: 17023
-MD5Sum: cb127fa7a8074174e932d13cf85b825d
-SHA256sum: c369caac569cce3629616f4458efa154dd567cd3238a2d2e44cfa4d9aab382bf
+MD5Sum: 8dfac1e7758f4b147a3bd7f64ae7d698
+SHA256sum: 1c181720a6a054543d108ce295d539c87420238455d10b96533eb5a93e5a3313
 Description:  Full version of standard passwd utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1106,9 +1126,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 16110
 Filename: shadow-su_4.2.1-4_ar71xx.ipk
-Size: 16811
-MD5Sum: a1ffee2a0854b2eec17822f5048950e4
-SHA256sum: 0f47dd8e2126c62292da128945a065cf4d75dd824ee887181ba0bc9859d053ff
+Size: 16813
+MD5Sum: 6ac5f767622df76fd367fe2f58c1ff5d
+SHA256sum: 369cdbfa9fde6720c49c8814ca015f51cc23686b022d800343078c1c82ff215b
 Description:  Full version of standard su utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1120,11 +1140,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 26271
+Installed-Size: 26272
 Filename: shadow-useradd_4.2.1-4_ar71xx.ipk
-Size: 26894
-MD5Sum: 808a382dd4fa3bfa22c2c49631bc5cd6
-SHA256sum: b9d771a99bd47073f3bc1e17d1dcca18222b7f1143efe06fc60ce08f137a5ed4
+Size: 26899
+MD5Sum: ceacd192b7172c3f65cba62f6eccba54
+SHA256sum: 254d67b7c825a85ee7f2c3da3675776e5981a1b55dc00e29cd77ab40437ba1ec
 Description:  Full version of standard useradd utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1136,11 +1156,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 15848
+Installed-Size: 15847
 Filename: shadow-userdel_4.2.1-4_ar71xx.ipk
-Size: 16602
-MD5Sum: 9bcd4a1d3d99f57e041f7b41d56ce5d2
-SHA256sum: 0d5dd78fffc162f5413d73515bb46272663165b4052580040431f3f2e85aced0
+Size: 16596
+MD5Sum: fb15ef9fb97f76e766178c53992eb94f
+SHA256sum: 60b48668603ff132f7beb039523f4bd32ad939d0ce6477cd1d22a27c58494c61
 Description:  Full version of standard userdel utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1152,11 +1172,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 26486
+Installed-Size: 26485
 Filename: shadow-usermod_4.2.1-4_ar71xx.ipk
-Size: 27117
-MD5Sum: 84321b02b737c515208fa8d74f89f31e
-SHA256sum: 13897caa0ef60b5bd00347cb5aaccc517063b8b4b4ea672aa3079e355c9c0cfc
+Size: 27110
+MD5Sum: 5e2f07c34b6c3ae659e16f4db781f815
+SHA256sum: b9fd4ddeddbd99176af821f5fb531730e82ea1529074eee23668faf7ec9dcd03
 Description:  Full version of standard usermod utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1170,9 +1190,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 105
 Filename: shadow-utils_4.2.1-4_ar71xx.ipk
-Size: 902
-MD5Sum: 1dde8fce4ad62d1fe1400358ec030c73
-SHA256sum: 01bf9376d4c043e852da8de3720ab00d28ec0640927df3de47439f3a36f5e281
+Size: 903
+MD5Sum: d48ef65a14790a27c4f910bc79f4a1cc
+SHA256sum: 92d5a88d51ea44f0e0656f7f7f0f2dfb470ed2733f8353101bccd972b564e19b
 Description:  Full versions of standard shadow utilities. Normally, you would not
  use this package, since the functionality in BusyBox is more than
  sufficient and much smaller.
@@ -1187,9 +1207,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 105
 Filename: shadow_4.2.1-4_ar71xx.ipk
-Size: 957
-MD5Sum: f941842eeff6af152ff51cf717984e56
-SHA256sum: f9734cc8b1eab2a75361f2a8fd3c7afd88123a4fd4bd885dc4df3b9cbf0a14f1
+Size: 954
+MD5Sum: 4b9951cbd0ab23a857ea9f29dc01844a
+SHA256sum: dfb20af835a4035b5bd95e6a1c3fb0165c3a3412016ab378b8b6bd4153194102
 Description:  Full versions of standard shadow utilities. Normally, you would not
  use this package, since the functionality in BusyBox is more than
  sufficient and much smaller.
@@ -1202,11 +1222,11 @@ License: PUBLICDOMAIN
 Section: utils
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: ar71xx
-Installed-Size: 365493
+Installed-Size: 365494
 Filename: sqlite3-cli_3081101-1_ar71xx.ipk
-Size: 366544
-MD5Sum: f585a2566bcf9cdf228c5c86ccc63aea
-SHA256sum: 83b77ae89cb0962219346bb20805e80509328a4e8c3443ed16e4da156a15b9f5
+Size: 366558
+MD5Sum: 90eda3fbfcf2134eb2883045b71a7e32
+SHA256sum: 0b3b5c7b1361516b5abc20570dcb66c5dd1cb255aebb666c06ef1dedc29dc136
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains a terminal-based front-end to the SQLite (v3.x) library
@@ -1221,11 +1241,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 22657
+Installed-Size: 22670
 Filename: squid-mod-cachemgr_3.5.12-1_ar71xx.ipk
-Size: 23427
-MD5Sum: 84bd96205553ae62f712d714ddc0a181
-SHA256sum: e33b4d206de03f103f35d32edcc5ccbd33f267feb344b897b0593e9eee32c895
+Size: 23428
+MD5Sum: 61d3372091026ad197a8be5d167c95ad
+SHA256sum: 425a14dca46f39582bb9d2a7be71476beabe05aeb0d321af457ad6dc799b02e6
 Description:  Web based proxy manager and reporting tool
 
 Package: squid
@@ -1236,11 +1256,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1646761
+Installed-Size: 1647270
 Filename: squid_3.5.12-1_ar71xx.ipk
-Size: 1643995
-MD5Sum: f5cd5f5f17fadb8e457a3ed07ccd1d36
-SHA256sum: c77d7154c1658bbf40683f736824569c672f460b15a6a5a6319ce5fbb0278b30
+Size: 1644341
+MD5Sum: 80538e5cd5b1ccd688626272d56345ca
+SHA256sum: bb922b35a6b90d2ee3a144acedeab8f8db378c99b19ccfe5bc397dabe732e03e
 Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
  It reduces bandwidth and improves response times by caching and reusing
  frequently-requested web pages.
@@ -1254,11 +1274,11 @@ LicenseFiles: doc/LICENSE
 Section: admin
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: ar71xx
-Installed-Size: 250327
+Installed-Size: 250321
 Filename: sudo_1.8.14p3-1_ar71xx.ipk
-Size: 250587
-MD5Sum: d54ff9ea12e6640d9b15e4b29dd2c0f7
-SHA256sum: 03719d74f1df701a9847f087563128c0c007ceb600160aa3f5e44a06d956d57d
+Size: 250602
+MD5Sum: d5ce046c9248e36daf2eff2462959e87
+SHA256sum: 9bcb76b8c29710e5dc85f9dfbf2484b0c5069e67549cc1db5a0616d419e6bee7
 Description:  Sudo (su "do") allows a system administrator to delegate authority to
  give certain users (or groups of users) the ability to run some (or
  all) commands as root or another user while providing an audit trail of
@@ -1273,11 +1293,11 @@ LicenseFiles: COPYING
 Section: utils
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: ar71xx
-Installed-Size: 155066
+Installed-Size: 155069
 Filename: tar_1.28-2_ar71xx.ipk
-Size: 155620
-MD5Sum: 47b77e3709e4ef64edadcff5cf838d47
-SHA256sum: 7539eeb0a45297b90a9856ca7f67e2fea4c1367fb1b716001218b88bd4bb5c5e
+Size: 155634
+MD5Sum: 49babb3d26bf0f2f21ad4cae5d520367
+SHA256sum: 691615ef60d211ef76da72ff5ef89a70d47052a81457af45fd899fa183031db6
 Description:  Tar is a program for packaging a set of files as a
  single archive in tar format.
 
@@ -1292,8 +1312,8 @@ Architecture: ar71xx
 Installed-Size: 40220
 Filename: vsftpd-tls_3.0.2-4.1_ar71xx.ipk
 Size: 40800
-MD5Sum: a92e5070aba627bbbc03e2550dad8558
-SHA256sum: ee7cb285d88432193985587149e267a910f35255e6843e5009e599036f201817
+MD5Sum: 6622bbd67b97872271e42dd18f1e2386
+SHA256sum: 62e3d38d7a1c1d13d0c28e029989d3a4b797c10095f2cc3afb52819ecd0ff831
 Description:  A fast and secure FTP server (TLS)
 
 Package: wget
@@ -1305,11 +1325,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: ar71xx
-Installed-Size: 175623
+Installed-Size: 175606
 Filename: wget_1.17.1-1_ar71xx.ipk
-Size: 175995
-MD5Sum: d7953458302343faffaa6055bd9d922e
-SHA256sum: 8ae8dc32bfad71a6e352df4d063328e03e3914a572c84bcc4624648bfc6baaba
+Size: 175991
+MD5Sum: f56939aeacb756e1f79decb77cf296b9
+SHA256sum: 383c03a00cefd2766574303e18d34aa4972af4f1d2f5fc98f3f4fe0f28f76241
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -1317,19 +1337,4 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  pages as well as ftp sites -- you can use wget to make mirrors of
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
-
-Package: zoneinfo-europe
-Version: 2015d-1
-Depends: libc, libssp
-Source: feeds/packages/utils/zoneinfo
-License: Public Domain
-Section: utils
-Maintainer: Vladimir Ulrich <admin@evl.su>
-Architecture: ar71xx
-Installed-Size: 20835
-Filename: zoneinfo-europe_2015d-1_ar71xx.ipk
-Size: 21518
-MD5Sum: 163cbf1e54374d94829a2f4b5e639b7d
-SHA256sum: da43753ef5321907e4fdbdc63a8b2219c8ab7c61e0d5ae4e679629694279cf27
-Description:  Zone Information (Europe)
 
