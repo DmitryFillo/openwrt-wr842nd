@@ -2,7 +2,7 @@
 OpenWrt TL-WR842ND
 ==================
 
-My custom OpenWrt build and packages repo for TP-Link TL-WR842ND. I created it for personal use and so documentation is quite weak, but
+My custom OpenWrt build and packages for TP-Link TL-WR842ND. I created it for personal use and so documentation is quite weak, but
 I'll be happy if you'll use something from here.
 
 .. contents::
@@ -10,7 +10,7 @@ I'll be happy if you'll use something from here.
 Summary
 =======
 
-OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd, etc. But I included important (for me) features: mc with subshell, UTF-8 support, bash, openvpn, su, tcpdump, htop, etc. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready for create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils).
+OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd and something else. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready to create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils).
 
 Pre-installed packages:
 
