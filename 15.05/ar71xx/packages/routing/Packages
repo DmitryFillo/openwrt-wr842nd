@@ -6,11 +6,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 145757
+Installed-Size: 145753
 Filename: quagga-bgpd_0.99.22.4-2_ar71xx.ipk
-Size: 145485
-MD5Sum: fe669cea5f233af96c07f4d94117ab74
-SHA256sum: b24c89eada9322da061988ffa6605f422415b5836dca958a88022e3aeecac3a8
+Size: 145483
+MD5Sum: 3f25f9ba7f39ed88966937a0daa84db7
+SHA256sum: 1db5b3cef25f35ba53d458bfc9e4f609df3af8ed0c29011beee665cf6e99a2c0
 Description:  BGPv4, BGPv4+, BGPv4- routing engine
 
 Package: quagga-libospf
@@ -21,11 +21,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 158839
+Installed-Size: 158840
 Filename: quagga-libospf_0.99.22.4-2_ar71xx.ipk
-Size: 158777
-MD5Sum: f9340f822b274d8b779a6412c85af149
-SHA256sum: 240dfb26a78e0c350ec45119394f15d29565c3294f3bdc829fdf3e882da1cca2
+Size: 158749
+MD5Sum: 372e13ce8797c41a5510b021cbd07a85
+SHA256sum: a99e64c87ffad2f2dede6fd0d410eafd88dc1692bc33a82f057d755284f684ba
 Description:  OSPF library
 
 Package: quagga-libzebra
@@ -36,11 +36,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 94687
+Installed-Size: 94691
 Filename: quagga-libzebra_0.99.22.4-2_ar71xx.ipk
-Size: 95049
-MD5Sum: 48fee4d8243f1268fee918afeba6c5b5
-SHA256sum: ec69b0bceaee0c40b5df54038fde354b92312feee553ae528deb8bf0ec8df743
+Size: 95059
+MD5Sum: 0634a0b11af39e74d404fd0db8cc63da
+SHA256sum: 33a91c799570200407140dd4522d02254373d05a6d26218ce5b364aecd32eacd
 Description:  zebra library
 
 Package: quagga-ospfd
@@ -51,11 +51,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 3790
+Installed-Size: 3791
 Filename: quagga-ospfd_0.99.22.4-2_ar71xx.ipk
-Size: 4566
-MD5Sum: 2b3176d932e47a934e8e10b6b01f5cb1
-SHA256sum: 67b1dc7d8e65111814475f07d04da6512d69a891c9733ca7c9a5339e95030246
+Size: 4565
+MD5Sum: efd9abb830ea54240870244351be00bf
+SHA256sum: b15ee399e7b3b83b606a63bdb96d105aa82aeb5c58e66c2cfdba14cd6e6ab9b3
 Description:  OSPFv2 routing engine
 
 Package: quagga-vtysh
@@ -66,11 +66,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 103954
+Installed-Size: 103800
 Filename: quagga-vtysh_0.99.22.4-2_ar71xx.ipk
-Size: 104580
-MD5Sum: abc27f5e380e52aa0d7e66496a2027a6
-SHA256sum: 8952e2e927b458dbf0319873bc5d3339d14fdee6e19150db1cabf3b541df29b0
+Size: 104445
+MD5Sum: 4b9167d965ebd027e174908008823147
+SHA256sum: d4fe682f20608322d01429c9823a970c91e8a7c4e31aa388b51ebd3754000e24
 Description:  integrated shell for Quagga routing software
 
 Package: quagga-watchquagga
@@ -81,11 +81,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 10807
+Installed-Size: 10806
 Filename: quagga-watchquagga_0.99.22.4-2_ar71xx.ipk
-Size: 11586
-MD5Sum: 7dd205da627771790fa9cc72b49761cb
-SHA256sum: 737a854885321300bb06daf1a53d76464338823ad9c9591c2461bca3be5a1469
+Size: 11572
+MD5Sum: c5170f41d174a8ad2a8bcd53a3061fce
+SHA256sum: 917bf6c593982f9a272d53dc45f32284a2c70f381f4ce55411d666bdfbbe92fc
 Description:  Quagga watchdog
 
 Package: quagga-zebra
@@ -96,11 +96,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 45489
+Installed-Size: 45484
 Filename: quagga-zebra_0.99.22.4-2_ar71xx.ipk
-Size: 46062
-MD5Sum: ae0b1af02bfb2d42040df3c944daeabb
-SHA256sum: c01f90eca70733c0d5ba9e296507aae387cde7351b8b542150bcfd483de9320e
+Size: 46055
+MD5Sum: 643f263965f831a5947bf8e518e3abe8
+SHA256sum: 99f74e10fb9911ba46807ed2b34740b3d8915cfdff6a6c8049b0a27ff8932093
 Description:  Zebra daemon
 
 Package: quagga
@@ -111,11 +111,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
 Architecture: ar71xx
-Installed-Size: 2389
+Installed-Size: 2390
 Filename: quagga_0.99.22.4-2_ar71xx.ipk
-Size: 3194
-MD5Sum: dc717476e9bf4b70aef6f03a93c80cde
-SHA256sum: d5352352956cca630afa52d24b01bfb6aa41899eadca1de5211387a61d674d51
+Size: 3198
+MD5Sum: 64b99df41296b853102e886a719af2cd
+SHA256sum: 0a612d7fab6dbea697613d3ca8075a561ba910ec601627f75f4fd6765661da45
 Description:  A routing software package that provides TCP/IP based routing services
  with routing protocols support such as RIPv1, RIPv2, RIPng, OSPFv2,
  OSPFv3, BGP-4, and BGP-4+
