@@ -10,13 +10,13 @@ I'll be happy if you'll use something from here.
 Summary
 =======
 
-OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd and something else. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready to create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils).
+OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd and something else. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready to create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils). You can check build config for more information.
 
 Pre-installed packages:
 
 .. code:: bash
 
-    base-files - 157.2-r48634
+    base-files - 157.2-r48749
     bash - 4.3.39-1
     block-mount - 2016-01-10-96415afecef35766332067f4205ef3b2c7561d21
     busybox - 1.23.2-1
@@ -41,7 +41,7 @@ Pre-installed packages:
     iwinfo - 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
     jshn - 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
     jsonfilter - 2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9
-    kernel - 3.18.23-1-1aae7af192d63eeb37d12a3233a6349d
+    kernel - 3.18.23-1-467b62ec109ba1995dd37930c4c162af
     kmod-ath - 3.18.23+2015-03-09-3
     kmod-ath9k - 3.18.23+2015-03-09-3
     kmod-ath9k-common - 3.18.23+2015-03-09-3
@@ -132,7 +132,6 @@ Pre-installed packages:
     openvpn-openssl - 2.3.6-5
     opkg - 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9
     ppp - 2.4.7-6
-    ppp-mod-pppoe - 2.4.7-6
     ppp-mod-pptp - 2.4.7-6
     procd - 2015-10-29.1-d5fddd91b966424bb63e943e789704d52382cc18
     resolveip - 2
@@ -150,13 +149,8 @@ Pre-installed packages:
     ubusd - 2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e
     uci - 2015-08-27.1-1
     usign - 2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131
-    uuidd - 2.25.2-4
     wget - 1.17.1-1
     zlib - 1.2.8-1
-    zoneinfo-europe - 2015d-1
-
-
-This is very basic feautre overview, so some interesting stuff is not described. You can check build config for more information.
 
 Download
 ========
