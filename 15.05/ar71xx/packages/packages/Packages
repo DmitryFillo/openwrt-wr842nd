@@ -56,6 +56,37 @@ Description:  Bash is an sh-compatible command language interpreter that execute
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
 
+Package: coreutils-stat
+Version: 8.23-1
+Depends: libc, libssp, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 28858
+Filename: coreutils-stat_8.23-1_ar71xx.ipk
+Size: 29595
+MD5Sum: c94e65c02b4a49af1df877ff18df38a0
+SHA256sum: d3ec5b028c6654f441a58f5b91766149a2521a8a66765c25e61d54beec1ff0ca
+Description:  Full version of standard GNU stat utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils
+Version: 8.23-1
+Depends: libc, libssp
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: coreutils_8.23-1_ar71xx.ipk
+Size: 884
+MD5Sum: a529225a5e88fbd8876797874cdcf6c6
+SHA256sum: 153fba63582b3daf118ed3e8e347c76faf02820f030d7cc15f758754e6c35de0
+Description:  Full versions of standard GNU utilities. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient and
+ smaller.
+
 Package: dbus-utils
 Version: 1.9.14-1
 Depends: libc, libssp, dbus
@@ -85,6 +116,40 @@ Size: 82949
 MD5Sum: 3898e4b50fd00722d4bd377a4bd025b2
 SHA256sum: c743cde5a866fe4455def4d4f26e943f14fe64fb32c30dca5b40e1bb8dc96fdb
 Description:  Simple interprocess messaging system (daemon)
+
+Package: git-http
+Version: 2.3.5-1
+Depends: libc, libssp, git, libcurl, ca-certificates
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 832693
+Filename: git-http_2.3.5-1_ar71xx.ipk
+Size: 832519
+MD5Sum: 75032a6d22be4d81f04494b687a3e124
+SHA256sum: 9a246f8520899817299a3b7a8ea348c1fa216052827259b48a85f0c2b9849b6e
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+ 
+ This package allows git push/fetch over http(s) and ftp(s)
+
+Package: git
+Version: 2.3.5-1
+Depends: libc, libssp, libopenssl, libpthread, librt
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 678816
+Filename: git_2.3.5-1_ar71xx.ipk
+Size: 679003
+MD5Sum: 66cd7efb4dee31f2249850ddaf4b04ae
+SHA256sum: cc9d002ea9f604b9bc6a02d87ff721779c7a9d36f44d83f15997550fe621335e
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
 
 Package: glib2
 Version: 2.43.4-1

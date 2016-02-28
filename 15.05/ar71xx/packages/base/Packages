@@ -78,6 +78,19 @@ SHA256sum: 96155818b4a849e6bca75bf1fe65ee66582c2b7bfc76982be8a8961c9e6ef449
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This package provides the binary.
 
+Package: ca-certificates
+Version: 20150426
+Depends: libc, libssp
+Source: package/system/ca-certificates
+Section: base
+Architecture: ar71xx
+Installed-Size: 184175
+Filename: ca-certificates_20150426_ar71xx.ipk
+Size: 184966
+MD5Sum: a8ac472d4eafe53c171bcd455cd991ad
+SHA256sum: 2eec1b642bb02ebbc0ec09772a6713e02e12db7d51a733c046c4441d491bb819
+Description:  System CA certificates
+
 Package: cal
 Version: 2.25.2-4
 Depends: libc, libssp, libncurses
@@ -117,11 +130,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 37931
+Installed-Size: 37932
 Filename: curl_7.40.0-3_ar71xx.ipk
-Size: 38707
-MD5Sum: 5ab749c564bc67c4f06e593c4bb146b7
-SHA256sum: d4f25a4ed3b0c936d053d04494c226ceab82885d66d7009063f13c24dbd271bf
+Size: 38698
+MD5Sum: 9bc3032ae7939b9cccf8601538ee8684
+SHA256sum: cb529a1c2df53a9278418213b1a0d30a20e14dc99ccdc223b0d0991bc3e38229
 Description:  A client-side URL transfer utility
 
 Package: dnsmasq
@@ -1634,11 +1647,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 97996
+Installed-Size: 98001
 Filename: libcurl_7.40.0-3_ar71xx.ipk
-Size: 98818
-MD5Sum: 367867cfff5f174463ea64fa6ac801c5
-SHA256sum: 320221baa3b63fff58efe6cf2513ddf38f21cf698033ce535d72ff2720332638
+Size: 98815
+MD5Sum: e6b5705ea3415fc29bbdd37cfb2c6023
+SHA256sum: 6ba52f76ea4cf2b4afd5be23671d57e712c388739f8963307c731539f6f99bde
 Description:  A client-side URL transfer library
 
 Package: libext2fs
