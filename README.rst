@@ -10,7 +10,7 @@ I'll be happy if you'll use something from here.
 Summary
 =======
 
-OpenWrt build without girl's stuff like UCI firewall, web interface, uhttpd and something else. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready to create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils). You can check build config for more information.
+OpenWrt build without girl's stuff like UCI firewall, web interface and something else. Package repository is quite small and includes `my own feed <https://github.com/DmitryFillo/openwrt-feed>`_. Ready to create pivot overlay with ext4 flash partition (fdisk, cfdisk, mkfs, swap utils). You can check build config for more information.
 
 Download
 ========
