@@ -1070,6 +1070,22 @@ SHA256sum: 4344ac769e912a98fdeed3f2b62702ab6e0ffa5bd32d3364afde23e0993bf6c6
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
+Package: screen
+Version: 4.3.1-1
+Depends: libc, libssp, libncurses
+Source: feeds/packages/utils/screen
+License: GPL-3.0+
+Section: utils
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ar71xx
+Installed-Size: 153943
+Filename: screen_4.3.1-1_ar71xx.ipk
+Size: 154510
+MD5Sum: e8f47ee596857da1c5e0c7100e48aba6
+SHA256sum: f4ca211eb6d33ceb9e9d0d61bf41337a0e6c49be5b3a40e80f9ae3ae9ce80d6e
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+
 Package: shadow-chage
 Version: 4.2.1-4
 Depends: libc, libssp, shadow-common
