@@ -1,16 +1,16 @@
-Package: nginx-sub
+Package: nginx-fillo
 Version: 1.9.6-1
 Depends: libc, libssp, libpcre, libopenssl, zlib, libpthread
-Source: feeds/fillo/net/nginx-sub
+Source: feeds/fillo/net/nginx-fillo
 License: 2-clause BSD-like license
 Section: net
 Maintainer: Dmitry Fillo <fillo@fillo.me>
 Architecture: ar71xx
-Installed-Size: 240385
-Filename: nginx-sub_1.9.6-1_ar71xx.ipk
-Size: 240592
-MD5Sum: 6b9195dfb218286bcea024cd1be83fc4
-SHA256sum: 50d8cc4f80968e0575f883d595a07920300264691bb32d8c87314ddd572d123f
+Installed-Size: 240575
+Filename: nginx-fillo_1.9.6-1_ar71xx.ipk
+Size: 240902
+MD5Sum: 94ab1f5e0b18dfbf78beb80cf7791ffc
+SHA256sum: e2175b5e2e99092b65dd1d2cefe5f3c6809b84a4acd16807e33f97a1ff0757e1
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
- With ngx_http_sub_module and nginx_substitutions_filter support.
+ With ngx_http_sub_module and NGINX_FILLOstitutions_filter support.
 
