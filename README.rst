@@ -2,7 +2,7 @@
 OpenWrt TL-WR842ND
 ==================
 
-My custom OpenWrt build and packages for TP-Link TL-WR842ND. I created it for personal use and so documentation is quite weak, but
+My custom OpenWrt build and packages for `TP-Link TL-WR842ND <http://www.tp-link.com/en/products/details/cat-9_TL-WR842ND.html>`_. I created it for personal use and so documentation is quite weak, but
 I'll be happy if you'll use something from here.
 
 .. contents::
