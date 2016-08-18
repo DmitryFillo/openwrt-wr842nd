@@ -1382,6 +1382,25 @@ SHA256sum: 691615ef60d211ef76da72ff5ef89a70d47052a81457af45fd899fa183031db6
 Description:  Tar is a program for packaging a set of files as a
  single archive in tar format.
 
+Package: unzip
+Version: 6.0-3
+Depends: libc, libssp
+Source: feeds/packages/utils/unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: ar71xx
+Installed-Size: 154634
+Filename: unzip_6.0-3_ar71xx.ipk
+Size: 155659
+MD5Sum: 9f32805e2c45b89beab1d03771a95202
+SHA256sum: 6cc140dae7a734ddb46cfc1a726d3117387ad5a82c40a7f53f7d5a16c72480e0
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
 Package: vsftpd-tls
 Version: 3.0.2-4.1
 Depends: libc, libssp, libopenssl
@@ -1418,4 +1437,23 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  pages as well as ftp sites -- you can use wget to make mirrors of
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
+
+Package: zip
+Version: 3.0-1
+Depends: libc, libssp
+Source: feeds/packages/utils/zip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: ar71xx
+Installed-Size: 176106
+Filename: zip_3.0-1_ar71xx.ipk
+Size: 176711
+MD5Sum: e9a985ed0f0a9ed33f6dee5ac3538d45
+SHA256sum: 670552503e13406f146b705e9a5b76c288837a54a52dd30cd5bf15a628bfa41b
+Description:  This is InfoZIP's zip program. It produces files that are fully
+ compatible with the popular PKZIP program; however, the command line
+ options are not identical. In other words, the end result is the same,
+ but the methods differ.
 

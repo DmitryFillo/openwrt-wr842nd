@@ -6,11 +6,11 @@ License: 2-clause BSD-like license
 Section: net
 Maintainer: Dmitry Fillo <fillo@fillo.me>
 Architecture: ar71xx
-Installed-Size: 248303
+Installed-Size: 273325
 Filename: nginx-fillo_1.9.6-1_ar71xx.ipk
-Size: 248491
-MD5Sum: 9a54cb0e65624b6816049d5d5525c7b1
-SHA256sum: 01d908b9fdc8ef88ea53a93950164155133514fa10e053dbe51d2c082c14cdc4
+Size: 270716
+MD5Sum: 1e60b8e55ef69512975aac256500efdd
+SHA256sum: 9f8460a4422bcbeb426ca0cf98e406afee0598bf98f0c09e9e3220a1d8aa8172
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
  With ngx_http_sub_module, nginx_substitutions_filter and nginx_echo_module support.
 
