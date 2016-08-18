@@ -1,4 +1,3 @@
-
 Pre-installed packages:
 
 .. code:: bash

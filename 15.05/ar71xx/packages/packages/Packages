@@ -354,7 +354,7 @@ SHA256sum: 6e3d8caac95867ba91b31147444254cdba99d1c043ae1b36453b00f44f8a512a
 Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre
-Version: 8.38-1
+Version: 8.39-1
 Depends: libc, libssp
 Source: feeds/packages/libs/pcre
 License: BSD-3-Clause
@@ -362,11 +362,11 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: ar71xx
-Installed-Size: 79549
-Filename: libpcre_8.38-1_ar71xx.ipk
-Size: 80406
-MD5Sum: f0d417380da800c3b66b00e8283a0c0f
-SHA256sum: 7fd8e2f9efec17991f69a1c7348fa8ad85b96d43e97b3505fb48291b24da1360
+Installed-Size: 78886
+Filename: libpcre_8.39-1_ar71xx.ipk
+Size: 79747
+MD5Sum: 345c3fd8c06269c2d0cbeb631b310e9a
+SHA256sum: 041e94c468e646358545d013613cfb06fde4b4f23546520ed243f2e6da0b4bb5
 Description:  A Perl Compatible Regular Expression library
 
 Package: libsqlite3
