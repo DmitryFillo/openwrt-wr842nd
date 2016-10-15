@@ -1,16 +1,16 @@
 Package: nginx-fillo
-Version: 1.9.6-1
+Version: 1.9.6-2
 Depends: libc, libssp, libpcre, libopenssl, zlib, libpthread
 Source: feeds/fillo/net/nginx-fillo
 License: 2-clause BSD-like license
 Section: net
 Maintainer: Dmitry Fillo <fillo@fillo.me>
 Architecture: ar71xx
-Installed-Size: 273325
-Filename: nginx-fillo_1.9.6-1_ar71xx.ipk
-Size: 270716
-MD5Sum: 1e60b8e55ef69512975aac256500efdd
-SHA256sum: 9f8460a4422bcbeb426ca0cf98e406afee0598bf98f0c09e9e3220a1d8aa8172
+Installed-Size: 259842
+Filename: nginx-fillo_1.9.6-2_ar71xx.ipk
+Size: 258135
+MD5Sum: cf6240ca824910b6c713e2bdb2983bef
+SHA256sum: 3fbf0f28ff7db531e06908f58ed8fd82b698adc991144515b0221c95bea43a79
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
- With ngx_http_sub_module, nginx_substitutions_filter and nginx_echo_module support.
+ Custom build. Info: https://github.com/DmitryFillo/openwrt-feed/tree/master/net/nginx-fillo
 
