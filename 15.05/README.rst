@@ -1,4 +1,4 @@
-Pre-installed packages:
+Pre-installed packages (build versions maybe wrong):
 
 .. code:: bash
 
